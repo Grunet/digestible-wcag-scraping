@@ -1,9 +1,11 @@
+import { IScrapedData } from "./scrape.ts";
+
 // This should probably point to a pinned version of the typings
 // @deno-types="https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/traverse/index.d.ts"
 import traverse from "https://dev.jspm.io/traverse@0.6.6";
 
-function __formatScrapedData(scrapedData: any): any {
-  const formattedData = JSON.parse(JSON.stringify(scrapedData));
+function __formatScrapedData(scrapedData: IScrapedData): any {
+  const formattedData: IScrapedData = JSON.parse(JSON.stringify(scrapedData));
 
   traverse(formattedData).forEach(
     function (this: traverse.TraverseContext, _value: any) {
@@ -61,7 +63,7 @@ function __formatScrapedData(scrapedData: any): any {
   return formattedData;
 }
 
-function formatScrapedData(scrapedData: any) {
+function formatScrapedData(scrapedData: IScrapedData) {
   return __formatScrapedData(scrapedData);
 }
 

@@ -2,7 +2,7 @@
 // @deno-types="https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/deab75bde42b5a82aeb951f5a2edaa09922853f4/types/cheerio/index.d.ts"
 import cheerio from "https://dev.jspm.io/cheerio@1.0.0-rc.3";
 
-async function __getScrapedData(): Promise<any> {
+async function __getScrapedData(): Promise<IScrapedData> {
   const res = await fetch("https://www.w3.org/TR/2020/WD-WCAG22-20200227/");
 
   const resBody = new TextDecoder("utf-8").decode(
@@ -11,9 +11,9 @@ async function __getScrapedData(): Promise<any> {
 
   let $ = cheerio.load(resBody);
 
-  const scrapedData: any = {};
-
-  scrapedData["principles"] = [];
+  const scrapedData: IScrapedData = {
+    principles: [],
+  };
 
   const principleSections = $(".principle");
   principleSections.each(
@@ -22,7 +22,7 @@ async function __getScrapedData(): Promise<any> {
 
       const principleParagraph = $(principleSection).find("p")[0];
 
-      scrapedData["principles"][principleIndex] = {
+      scrapedData.principles[principleIndex] = {
         headingText: $(principleSectionHeading).text(),
         paraText: $(principleParagraph).text(),
         guidelines: [],
@@ -35,7 +35,7 @@ async function __getScrapedData(): Promise<any> {
 
           const guidelineSectionParagraph = $(guidelineSection).find("p")[0];
 
-          scrapedData["principles"][principleIndex]["guidelines"][
+          scrapedData.principles[principleIndex].guidelines[
             guidelineIndex
           ] = {
             headingText: $(guidelineSectionHeading).text(),
@@ -55,7 +55,7 @@ async function __getScrapedData(): Promise<any> {
                 $(successCrit).find(".doclinks")[0];
               const successCritLinks = $(successCritLinksWrapper).find("a");
 
-              const linksObj: any = {};
+              const linksObj: ILinkUrls = {};
               successCritLinks.each(
                 (linkIndex: number, linkEl: CheerioElement) => {
                   linksObj[$(linkEl).text()] = $(linkEl).attr("href");
@@ -67,11 +67,9 @@ async function __getScrapedData(): Promise<any> {
               $(successCritLevel).remove();
               $(successCritLinksWrapper).remove();
 
-              scrapedData["principles"][principleIndex]["guidelines"][
+              scrapedData.principles[principleIndex].guidelines[
                 guidelineIndex
-              ][
-                "successCriteria"
-              ][successCritIndex] = {
+              ].successCriteria[successCritIndex] = {
                 headingText: $(successCritHeading).text(),
                 levelText: $(successCritLevel).text(),
                 links: linksObj,
@@ -87,8 +85,37 @@ async function __getScrapedData(): Promise<any> {
   return scrapedData;
 }
 
-async function getScrapedData() {
+interface IScrapedData {
+  principles: IPrincipleData[];
+}
+
+interface IPrincipleData extends IHeadingText {
+  paraText: string;
+  guidelines: IGuidelineData[];
+}
+
+interface IGuidelineData extends IHeadingText {
+  paraText: string;
+  successCriteria: ISuccessCriterionData[];
+}
+
+interface ISuccessCriterionData extends IHeadingText {
+  levelText: string;
+  links: ILinkUrls;
+  contentMarkup: string //should be a string of valid html
+  ;
+}
+
+interface ILinkUrls {
+  [key: string]: string;
+}
+
+interface IHeadingText {
+  headingText: string;
+}
+
+async function getScrapedData(): Promise<IScrapedData> {
   return await __getScrapedData();
 }
 
-export { getScrapedData };
+export { getScrapedData, IScrapedData };
