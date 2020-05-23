@@ -143,6 +143,10 @@ traverse(formattedData).forEach(
 const contentBytes = new TextEncoder().encode(
   JSON.stringify(formattedData, null, 4),
 );
-const file = await Deno.open("output.json", { write: true, create: true }); // Can this be moved to a dist directory?
+Deno.mkdir("dist", { recursive: true });
+const file = await Deno.open(
+  "./dist/output.json",
+  { write: true, create: true },
+);
 await Deno.writeAll(file, contentBytes);
 Deno.close(file.rid);
