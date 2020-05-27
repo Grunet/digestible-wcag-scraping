@@ -67,6 +67,8 @@ async function __getScrapedData(): Promise<IScrapedData> {
               $(successCritLevel).remove();
               $(successCritLinksWrapper).remove();
 
+              $(successCrit).find(".note").remove();
+
               scrapedData.principles[principleIndex].guidelines[
                 guidelineIndex
               ].successCriteria[successCritIndex] = {
