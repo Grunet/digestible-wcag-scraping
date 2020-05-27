@@ -5,60 +5,63 @@ import { IScrapedData } from "./scrape.ts";
 import traverse from "https://dev.jspm.io/traverse@0.6.6";
 
 function __formatScrapedData(scrapedData: IScrapedData): any {
-  const formattedData: IScrapedData = JSON.parse(JSON.stringify(scrapedData));
+  const formattedData = JSON.parse(JSON.stringify(scrapedData));
 
-  traverse(formattedData).forEach(
-    function (this: traverse.TraverseContext, _value: any) {
-      if (this?.node?.hasOwnProperty("headingText")) {
-        const scrapedHeadingText = this.node.headingText;
+  traverse(formattedData).forEach(function (
+    this: traverse.TraverseContext,
+    _value: any
+  ) {
+    if (this?.node?.hasOwnProperty("headingText")) {
+      const scrapedHeadingText = this.node.headingText;
 
-        const id = scrapedHeadingText.replace(/[^\d.]+/g, "");
+      const id = scrapedHeadingText.replace(/[^\d.]+/g, "");
 
-        const name = scrapedHeadingText.split(id)[1].trimStart();
+      const name = scrapedHeadingText.split(id)[1].trimStart();
 
-        this.node["id"] = id;
-        this.node["name"] = name;
+      this.node["id"] = id;
+      this.node["name"] = name;
 
-        delete this.node["headingText"];
-      }
-    },
-  );
+      delete this.node["headingText"];
+    }
+  });
 
-  traverse(formattedData).forEach(
-    function (this: traverse.TraverseContext, _value: any) {
-      if (this?.key?.includes("links")) {
-        const linksObj = this.node;
+  traverse(formattedData).forEach(function (
+    this: traverse.TraverseContext,
+    _value: any
+  ) {
+    if (this?.key?.includes("links")) {
+      const linksObj = this.node;
 
-        const modifiedKvPairs = Object.entries(linksObj);
-        modifiedKvPairs.forEach(function (kvPair) {
-          if (kvPair[0].includes("Understanding")) {
-            kvPair[0] = "understand";
-          }
+      const modifiedKvPairs = Object.entries(linksObj);
+      modifiedKvPairs.forEach(function (kvPair) {
+        if (kvPair[0].includes("Understanding")) {
+          kvPair[0] = "understand";
+        }
 
-          if (kvPair[0].includes("How to Meet")) {
-            kvPair[0] = "meet";
-          }
-        });
+        if (kvPair[0].includes("How to Meet")) {
+          kvPair[0] = "meet";
+        }
+      });
 
-        const modifiedLinksObj = Object.fromEntries(modifiedKvPairs);
+      const modifiedLinksObj = Object.fromEntries(modifiedKvPairs);
 
-        this.update(modifiedLinksObj);
-      }
-    },
-  );
+      this.update(modifiedLinksObj);
+    }
+  });
 
-  traverse(formattedData).forEach(
-    function (this: traverse.TraverseContext, _value: any) {
-      if (this?.node?.hasOwnProperty("levelText")) {
-        const levelText = this.node.levelText;
+  traverse(formattedData).forEach(function (
+    this: traverse.TraverseContext,
+    _value: any
+  ) {
+    if (this?.node?.hasOwnProperty("levelText")) {
+      const levelText = this.node.levelText;
 
-        const levelCat = levelText.replace(/[^A]+/g, "");
+      const levelCat = levelText.replace(/[^A]+/g, "");
 
-        this.node["level"] = levelCat;
-        delete this.node["levelText"];
-      }
-    },
-  );
+      this.node["level"] = levelCat;
+      delete this.node["levelText"];
+    }
+  });
 
   return formattedData;
 }
