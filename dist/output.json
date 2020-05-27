@@ -11,7 +11,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-content"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All <a href=\"#dfn-non-text-content\" class=\"internalDFN\" data-link-type=\"dfn\">non-text content</a> that is presented to the user has a <a href=\"#dfn-text-alternative\" class=\"internalDFN\" data-link-type=\"dfn\">text alternative</a> that serves the equivalent purpose, except for the situations listed below.\n   </p>\n   \n   <dl>\n      \n      <dt>Controls, Input</dt>\n      \n      <dd>\n         \n         <p>If non-text content is a control or accepts user input, then it has a <a href=\"#dfn-name\" class=\"internalDFN\" data-link-type=\"dfn\">name</a> that describes its purpose. (Refer to <a href=\"#name-role-value\">Success Criterion 4.1.2</a> for additional requirements for controls and content that accepts user input.)\n         </p>\n         \n      </dd>\n      \n      <dt>Time-Based Media</dt>\n      \n      <dd>\n         \n         <p>If non-text content is time-based media, then text alternatives at least provide descriptive\n            identification of the non-text content. (Refer to <a href=\"#time-based-media\">Guideline 1.2</a> for additional requirements for media.)\n         </p>\n         \n      </dd>\n      \n      <dt>Test</dt>\n      \n      <dd>\n         \n         <p>If non-text content is a test or exercise that would be invalid if presented in <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a>, then text alternatives at least provide descriptive identification of the non-text\n            content.\n         </p>\n         \n      </dd>\n      \n      <dt>Sensory</dt>\n      \n      <dd>\n         \n         <p>If non-text content is primarily intended to create a <a href=\"#dfn-specific-sensory-experience\" class=\"internalDFN\" data-link-type=\"dfn\">specific sensory experience</a>, then text alternatives at least provide descriptive identification of the non-text\n            content.\n         </p>\n         \n      </dd>\n      \n      <dt><a href=\"#dfn-captcha\" class=\"internalDFN\" data-link-type=\"dfn\">CAPTCHA</a></dt>\n      \n      <dd>\n         \n         <p>If the purpose of non-text content is to confirm that content is being accessed by\n            a person rather than a computer, then text alternatives that identify and describe\n            the purpose of the non-text content are provided, and alternative forms of CAPTCHA\n            using output modes for different types of sensory perception are provided to accommodate\n            different disabilities.\n         </p>\n         \n      </dd>\n      \n      <dt>Decoration, Formatting, Invisible</dt>\n      \n      <dd>\n         \n         <p>If non-text content is <a href=\"#dfn-pure-decoration\" class=\"internalDFN\" data-link-type=\"dfn\">pure decoration</a>, is used only for visual formatting, or is not presented to users, then it is implemented\n            in a way that it can be ignored by <a href=\"#dfn-assistive-technologies\" class=\"internalDFN\" data-link-type=\"dfn\">assistive technology</a>.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.\n   </p>\n   \n   <dl>\n      \n      <dt>Controls, Input</dt>\n      \n      <dd>\n         \n         <p>If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.)\n         </p>\n         \n      </dd>\n      \n      <dt>Time-Based Media</dt>\n      \n      <dd>\n         \n         <p>If non-text content is time-based media, then text alternatives at least provide descriptive\n            identification of the non-text content. (Refer to Guideline 1.2 for additional requirements for media.)\n         </p>\n         \n      </dd>\n      \n      <dt>Test</dt>\n      \n      <dd>\n         \n         <p>If non-text content is a test or exercise that would be invalid if presented in text, then text alternatives at least provide descriptive identification of the non-text\n            content.\n         </p>\n         \n      </dd>\n      \n      <dt>Sensory</dt>\n      \n      <dd>\n         \n         <p>If non-text content is primarily intended to create a specific sensory experience, then text alternatives at least provide descriptive identification of the non-text\n            content.\n         </p>\n         \n      </dd>\n      \n      <dt>CAPTCHA</dt>\n      \n      <dd>\n         \n         <p>If the purpose of non-text content is to confirm that content is being accessed by\n            a person rather than a computer, then text alternatives that identify and describe\n            the purpose of the non-text content are provided, and alternative forms of CAPTCHA\n            using output modes for different types of sensory perception are provided to accommodate\n            different disabilities.\n         </p>\n         \n      </dd>\n      \n      <dt>Decoration, Formatting, Invisible</dt>\n      \n      <dd>\n         \n         <p>If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented\n            in a way that it can be ignored by assistive technology.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.1.1",
                             "name": "Non-text Content",
                             "level": "A"
@@ -28,7 +28,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-audio-only\" class=\"internalDFN\" data-link-type=\"dfn\">audio-only</a> and prerecorded <a href=\"#dfn-video-only\" class=\"internalDFN\" data-link-type=\"dfn\">video-only</a> media, the following are true, except when the audio or video is a <a href=\"#dfn-media-alternative-for-text\" class=\"internalDFN\" data-link-type=\"dfn\">media alternative for text</a> and is clearly labeled as such:\n   </p>\n   \n   <dl>\n      \n      <dt>Prerecorded Audio-only</dt>\n      \n      <dd>\n         \n         <p>An <a href=\"#dfn-alternative-for-time-based-media\" class=\"internalDFN\" data-link-type=\"dfn\">alternative for time-based media</a> is provided that presents equivalent information for prerecorded audio-only content.\n         </p>\n         \n      </dd>\n      \n      <dt>Prerecorded Video-only</dt>\n      \n      <dd>\n         \n         <p>Either an alternative for time-based media or an audio track is provided that presents\n            equivalent information for prerecorded video-only content.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For prerecorded\n      audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:\n   </p>\n   \n   <dl>\n      \n      <dt>Prerecorded Audio-only</dt>\n      \n      <dd>\n         \n         <p>An alternative for time-based media is provided that presents equivalent information for prerecorded audio-only content.\n         </p>\n         \n      </dd>\n      \n      <dt>Prerecorded Video-only</dt>\n      \n      <dd>\n         \n         <p>Either an alternative for time-based media or an audio track is provided that presents\n            equivalent information for prerecorded video-only content.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.2.1",
                             "name": "Audio-only and Video-only (Prerecorded)",
                             "level": "A"
@@ -38,7 +38,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-captions\" class=\"internalDFN\" data-link-type=\"dfn\">Captions</a> are provided for all <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-audio\" class=\"internalDFN\" data-link-type=\"dfn\">audio</a> content in <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a>, except when the media is a <a href=\"#dfn-media-alternative-for-text\" class=\"internalDFN\" data-link-type=\"dfn\">media alternative for text</a> and is clearly labeled as such.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Captions are provided for all prerecorded\n      audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.\n   </p>\n   \n",
                             "id": "1.2.2",
                             "name": "Captions (Prerecorded)",
                             "level": "A"
@@ -48,7 +48,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An <a href=\"#dfn-alternative-for-time-based-media\" class=\"internalDFN\" data-link-type=\"dfn\">alternative for time-based media</a> or <a href=\"#dfn-audio-descriptions\" class=\"internalDFN\" data-link-type=\"dfn\">audio description</a> of the <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-video\" class=\"internalDFN\" data-link-type=\"dfn\">video</a> content is provided for <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a>, except when the media is a <a href=\"#dfn-media-alternative-for-text\" class=\"internalDFN\" data-link-type=\"dfn\">media alternative for text</a> and is clearly labeled as such.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An alternative for time-based media or audio description of the prerecorded\n      video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.\n   </p>\n   \n",
                             "id": "1.2.3",
                             "name": "Audio Description or Media Alternative (Prerecorded)",
                             "level": "A"
@@ -58,7 +58,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#captions-live"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-captions\" class=\"internalDFN\" data-link-type=\"dfn\">Captions</a> are provided for all <a href=\"#dfn-live\" class=\"internalDFN\" data-link-type=\"dfn\">live</a>\n      <a href=\"#dfn-audio\" class=\"internalDFN\" data-link-type=\"dfn\">audio</a> content in <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Captions are provided for all live\n      audio content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.4",
                             "name": "Captions (Live)",
                             "level": "AA"
@@ -68,7 +68,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-audio-descriptions\" class=\"internalDFN\" data-link-type=\"dfn\">Audio description</a> is provided for all <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-video\" class=\"internalDFN\" data-link-type=\"dfn\">video</a> content in <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Audio description is provided for all prerecorded\n      video content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.5",
                             "name": "Audio Description (Prerecorded)",
                             "level": "AA"
@@ -78,7 +78,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-sign-language-interpretation\" class=\"internalDFN\" data-link-type=\"dfn\">Sign language interpretation</a> is provided for all <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-audio\" class=\"internalDFN\" data-link-type=\"dfn\">audio</a> content in <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Sign language interpretation is provided for all prerecorded\n      audio content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.6",
                             "name": "Sign Language (Prerecorded)",
                             "level": "AAA"
@@ -88,7 +88,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#extended-audio-description-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Where pauses in foreground audio are insufficient to allow <a href=\"#dfn-audio-descriptions\" class=\"internalDFN\" data-link-type=\"dfn\">audio descriptions</a> to convey the sense of the video, <a href=\"#dfn-extended-audio-description\" class=\"internalDFN\" data-link-type=\"dfn\">extended audio description</a> is provided for all <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-video\" class=\"internalDFN\" data-link-type=\"dfn\">video</a> content in <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded\n      video content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.7",
                             "name": "Extended Audio Description (Prerecorded)",
                             "level": "AAA"
@@ -98,7 +98,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#media-alternative-prerecorded"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An <a href=\"#dfn-alternative-for-time-based-media\" class=\"internalDFN\" data-link-type=\"dfn\">alternative for time-based media</a> is provided for all <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a> and for all prerecorded <a href=\"#dfn-video-only\" class=\"internalDFN\" data-link-type=\"dfn\">video-only</a> media.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An alternative for time-based media is provided for all prerecorded\n      synchronized media and for all prerecorded video-only media.\n   </p>\n   \n",
                             "id": "1.2.8",
                             "name": "Media Alternative (Prerecorded)",
                             "level": "AAA"
@@ -108,7 +108,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-live"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An <a href=\"#dfn-alternative-for-time-based-media\" class=\"internalDFN\" data-link-type=\"dfn\">alternative for time-based media</a> that presents equivalent information for <a href=\"#dfn-live\" class=\"internalDFN\" data-link-type=\"dfn\">live</a>\n      <a href=\"#dfn-audio-only\" class=\"internalDFN\" data-link-type=\"dfn\">audio-only</a> content is provided.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An alternative for time-based media that presents equivalent information for live\n      audio-only content is provided.\n   </p>\n   \n",
                             "id": "1.2.9",
                             "name": "Audio-only (Live)",
                             "level": "AAA"
@@ -125,7 +125,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Information, <a href=\"#dfn-structure\" class=\"internalDFN\" data-link-type=\"dfn\">structure</a>, and <a href=\"#dfn-relationships\" class=\"internalDFN\" data-link-type=\"dfn\">relationships</a> conveyed through <a href=\"#dfn-presentation\" class=\"internalDFN\" data-link-type=\"dfn\">presentation</a> can be <a href=\"#dfn-programmatically-determinable\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined</a> or are available in text.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.\n   </p>\n   \n",
                             "id": "1.3.1",
                             "name": "Info and Relationships",
                             "level": "A"
@@ -135,7 +135,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When the sequence in which content is presented affects its meaning, a <a href=\"#dfn-correct-reading-sequence\" class=\"internalDFN\" data-link-type=\"dfn\">correct reading sequence</a> can be <a href=\"#dfn-programmatically-determinable\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.\n   </p>\n   \n",
                             "id": "1.3.2",
                             "name": "Meaningful Sequence",
                             "level": "A"
@@ -155,7 +155,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#orientation"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a>.</p>\n   \t\t\t\t\n   \n   \t\t\t\t\t\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.</p>\n   \t\t\t\t\n   \n   \t\t\t\t\t\n",
                             "id": "1.3.4",
                             "name": "Orientation",
                             "level": "AA"
@@ -165,7 +165,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose"
                             },
-                            "contentMarkup": "\n\t\n\t\n\t\n\t\n\t\n\t<p>The purpose of each input field collecting information about the user can be <a href=\"#dfn-programmatically-determinable\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined</a> when:</p>\n  \n  <ul>\n    <li>The input field serves a purpose identified in the <a href=\"#input-purposes\">Input Purposes for User Interface Components section</a>; and</li>\n    <li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>\n  </ul>\n  \n",
+                            "contentMarkup": "\n\t\n\t\n\t\n\t\n\t\n\t<p>The purpose of each input field collecting information about the user can be programmatically determined when:</p>\n  \n  <ul>\n    <li>The input field serves a purpose identified in the Input Purposes for User Interface Components section; and</li>\n    <li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>\n  </ul>\n  \n",
                             "id": "1.3.5",
                             "name": "Identify Input Purpose",
                             "level": "AA"
@@ -175,7 +175,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/identify-purpose.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#identify-purpose"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>In content implemented using markup languages, the purpose of <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">User Interface Components</a>, icons, and <a href=\"#dfn-regions\" class=\"internalDFN\" data-link-type=\"dfn\">regions</a> can be <a href=\"#dfn-programmatically-determinable\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined</a>.</p>\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>In content implemented using markup languages, the purpose of User Interface Components, icons, and regions can be programmatically determined.</p>\n",
                             "id": "1.3.6",
                             "name": "Identify Purpose",
                             "level": "AAA"
@@ -202,7 +202,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-control"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If any audio on a Web page plays automatically for more than 3 seconds, either a <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to pause or stop the audio, or a mechanism is available to control audio\n      volume independently from the overall system volume level.\n   </p>\n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio\n      volume independently from the overall system volume level.\n   </p>\n   \n   \n   \n",
                             "id": "1.4.2",
                             "name": "Audio Control",
                             "level": "A"
@@ -212,7 +212,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The visual presentation of <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> and <a href=\"#dfn-images-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">images of text</a> has a <a href=\"#dfn-contrast-ratio\" class=\"internalDFN\" data-link-type=\"dfn\">contrast ratio</a> of at least 4.5:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p><a href=\"#dfn-large-scale\" class=\"internalDFN\" data-link-type=\"dfn\">Large-scale</a> text and images of large-scale text have a contrast ratio of at least 3:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">user interface component</a>, that are <a href=\"#dfn-pure-decoration\" class=\"internalDFN\" data-link-type=\"dfn\">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p>Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.4.3",
                             "name": "Contrast (Minimum)",
                             "level": "AA"
@@ -222,7 +222,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#resize-text"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Except for <a href=\"#dfn-captions\" class=\"internalDFN\" data-link-type=\"dfn\">captions</a> and <a href=\"#dfn-images-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">images of text</a>, <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> can be resized without <a href=\"#dfn-assistive-technologies\" class=\"internalDFN\" data-link-type=\"dfn\">assistive technology</a> up to 200 percent without loss of content or functionality.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.\n   </p>\n   \n",
                             "id": "1.4.4",
                             "name": "Resize text",
                             "level": "AA"
@@ -232,7 +232,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If the technologies being used can achieve the visual presentation, <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> is used to convey information rather than <a href=\"#dfn-images-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">images of text</a> except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Customizable</dt>\n      \n      <dd>\n         \n         <p>The image of text can be <a href=\"#dfn-visually-customized\" class=\"internalDFN\" data-link-type=\"dfn\">visually customized</a> to the user&apos;s requirements;\n         </p>\n         \n      </dd>\n      \n      <dt>Essential</dt>\n      \n      <dd>\n         \n         <p>A particular presentation of text is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> to the information being conveyed.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Customizable</dt>\n      \n      <dd>\n         \n         <p>The image of text can be visually customized to the user&apos;s requirements;\n         </p>\n         \n      </dd>\n      \n      <dt>Essential</dt>\n      \n      <dd>\n         \n         <p>A particular presentation of text is essential to the information being conveyed.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n",
                             "id": "1.4.5",
                             "name": "Images of Text",
                             "level": "AA"
@@ -242,7 +242,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The visual presentation of <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> and <a href=\"#dfn-images-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">images of text</a> has a <a href=\"#dfn-contrast-ratio\" class=\"internalDFN\" data-link-type=\"dfn\">contrast ratio</a> of at least 7:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p><a href=\"#dfn-large-scale\" class=\"internalDFN\" data-link-type=\"dfn\">Large-scale</a> text and images of large-scale text have a contrast ratio of at least 4.5:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">user interface component</a>, that are <a href=\"#dfn-pure-decoration\" class=\"internalDFN\" data-link-type=\"dfn\">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p>Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.4.6",
                             "name": "Contrast (Enhanced)",
                             "level": "AAA"
@@ -252,7 +252,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#low-or-no-background-audio"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For <a href=\"#dfn-prerecorded\" class=\"internalDFN\" data-link-type=\"dfn\">prerecorded</a>\n      <a href=\"#dfn-audio-only\" class=\"internalDFN\" data-link-type=\"dfn\">audio-only</a> content that (1) contains primarily speech in the foreground, (2) is not an audio\n      <a href=\"#dfn-captcha\" class=\"internalDFN\" data-link-type=\"dfn\">CAPTCHA</a> or audio logo, and (3) is not vocalization intended to be primarily musical expression\n      such as singing or rapping, at least one of the following is true:\n   </p>\n   \n   <dl>\n      \n      <dt>No Background</dt>\n      \n      <dd>\n         \n         <p>The audio does not contain background sounds.</p>\n         \n      </dd>\n      \n      <dt>Turn Off</dt>\n      \n      <dd>\n         \n         <p>The background sounds can be turned off.</p>\n         \n      </dd>\n      \n      <dt>20 dB</dt>\n      \n      <dd>\n         \n         <p>The background sounds are at least 20 decibels lower than the foreground speech content,\n            with the exception of occasional sounds that last for only one or two seconds.\n         </p>\n         \n         \n         \n      </dd>\n      \n   </dl>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For prerecorded\n      audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio\n      CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression\n      such as singing or rapping, at least one of the following is true:\n   </p>\n   \n   <dl>\n      \n      <dt>No Background</dt>\n      \n      <dd>\n         \n         <p>The audio does not contain background sounds.</p>\n         \n      </dd>\n      \n      <dt>Turn Off</dt>\n      \n      <dd>\n         \n         <p>The background sounds can be turned off.</p>\n         \n      </dd>\n      \n      <dt>20 dB</dt>\n      \n      <dd>\n         \n         <p>The background sounds are at least 20 decibels lower than the foreground speech content,\n            with the exception of occasional sounds that last for only one or two seconds.\n         </p>\n         \n         \n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.4.7",
                             "name": "Low or No Background Audio",
                             "level": "AAA"
@@ -262,7 +262,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For the visual presentation of <a href=\"#dfn-blocks-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">blocks of text</a>, a <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to achieve the following:\n   </p>\n   <ul>\n     <li>Foreground and background colors can be selected by the user.</li>   \n     <li>Width is no more than 80 characters or glyphs (40 if CJK).</li>   \n     <li>Text is not justified (aligned to both the left and the right margins).</li>   \n     <li>Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.</li>   \n     <li>Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text <a href=\"#dfn-on-a-full-screen-window\" class=\"internalDFN\" data-link-type=\"dfn\">on a full-screen window</a>.</li>   \n  </ul>\n  \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For the visual presentation of blocks of text, a mechanism is available to achieve the following:\n   </p>\n   <ul>\n     <li>Foreground and background colors can be selected by the user.</li>   \n     <li>Width is no more than 80 characters or glyphs (40 if CJK).</li>   \n     <li>Text is not justified (aligned to both the left and the right margins).</li>   \n     <li>Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.</li>   \n     <li>Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window.</li>   \n  </ul>\n  \n",
                             "id": "1.4.8",
                             "name": "Visual Presentation",
                             "level": "AAA"
@@ -272,7 +272,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text-no-exception.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text-no-exception"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-images-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">Images of text</a> are only used for <a href=\"#dfn-pure-decoration\" class=\"internalDFN\" data-link-type=\"dfn\">pure decoration</a> or where a particular presentation of <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> to the information being conveyed.\n   </p>\n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.\n   </p>\n   \n   \n   \n",
                             "id": "1.4.9",
                             "name": "Images of Text (No Exception)",
                             "level": "AAA"
@@ -282,7 +282,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#reflow"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>\n   <ul>\n       <li>Vertical scrolling content at a width equivalent to 320 <a href=\"#dfn-css-pixels\" class=\"internalDFN\" data-link-type=\"dfn\">CSS pixels</a>;</li>\n       <li>Horizontal scrolling content at a height equivalent to 256 <a href=\"#dfn-css-pixels\" class=\"internalDFN\" data-link-type=\"dfn\">CSS pixels</a>.</li>\n   </ul>\n   <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>\n  \n   \n   \n   \n   \t\t\t\t\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>\n   <ul>\n       <li>Vertical scrolling content at a width equivalent to 320 CSS pixels;</li>\n       <li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li>\n   </ul>\n   <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>\n  \n   \n   \n   \n   \t\t\t\t\n",
                             "id": "1.4.10",
                             "name": "Reflow",
                             "level": "AA"
@@ -292,7 +292,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>The visual <a href=\"#dfn-presentation\" class=\"internalDFN\" data-link-type=\"dfn\">presentation</a> of the following have a <a href=\"#dfn-contrast-ratio\" class=\"internalDFN\" data-link-type=\"dfn\">contrast ratio</a> of at least 3:1 against adjacent color(s):</p>\n   \t\t\t\t\t\n   <dl>\n      \t\t\t\t\t\t\n      <dt>User Interface Components</dt>\n      \t\t\t\t\t\t\n     <dd>Visual information required to identify <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">user interface components</a> and <a href=\"#dfn-states\" class=\"internalDFN\" data-link-type=\"dfn\">states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</dd>\n      \t\t\t\t\t\t\n      <dt>Graphical Objects</dt>\n      \t\t\t\t\t\t\n      <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> to the information being conveyed.</dd>\n      \t\t\t\t\t\t\n   </dl>\n  \n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>The visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):</p>\n   \t\t\t\t\t\n   <dl>\n      \t\t\t\t\t\t\n      <dt>User Interface Components</dt>\n      \t\t\t\t\t\t\n     <dd>Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</dd>\n      \t\t\t\t\t\t\n      <dt>Graphical Objects</dt>\n      \t\t\t\t\t\t\n      <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.</dd>\n      \t\t\t\t\t\t\n   </dl>\n  \n",
                             "id": "1.4.11",
                             "name": "Non-text Contrast",
                             "level": "AA"
@@ -302,7 +302,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#text-spacing"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>In content implemented using markup languages that support the following <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> <a href=\"#dfn-style-properties\" class=\"internalDFN\" data-link-type=\"dfn\">style properties</a>, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>\n   \n   <ul>\n     <li>Line height (line spacing) to at least 1.5 times the font size;</li>\n     <li>Spacing following paragraphs to at least 2 times the font size;</li>\n     <li>Letter spacing (tracking) to at least 0.12 times the font size;</li>\n     <li>Word spacing to at least 0.16 times the font size.</li>\n   </ul>\n \n <p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>\n \n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>\n   \n   <ul>\n     <li>Line height (line spacing) to at least 1.5 times the font size;</li>\n     <li>Spacing following paragraphs to at least 2 times the font size;</li>\n     <li>Letter spacing (tracking) to at least 0.12 times the font size;</li>\n     <li>Word spacing to at least 0.16 times the font size.</li>\n   </ul>\n \n <p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>\n \n",
                             "id": "1.4.12",
                             "name": "Text Spacing",
                             "level": "AA"
@@ -312,7 +312,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n       \n    \t<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>\n\n  <dl>\n\n    <dt>Dismissible</dt>\n    <dd>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an <a href=\"#dfn-input-error\" class=\"internalDFN\" data-link-type=\"dfn\">input error</a> or does not obscure or replace other content;</dd>\n\n    <dt>Hoverable</dt>\n   <dd>If pointer hover can trigger the additional content, then the pointer can be moved  over the additional content without the additional content disappearing;</dd>\n\n    <dt>Persistent</dt>\n    <dd>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</dd>\n\n  </dl>\n    \t\n    \t<p>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>\n\n    \t\n     \n\n  ",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n       \n    \t<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>\n\n  <dl>\n\n    <dt>Dismissible</dt>\n    <dd>A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;</dd>\n\n    <dt>Hoverable</dt>\n   <dd>If pointer hover can trigger the additional content, then the pointer can be moved  over the additional content without the additional content disappearing;</dd>\n\n    <dt>Persistent</dt>\n    <dd>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</dd>\n\n  </dl>\n    \t\n    \t<p>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>\n\n    \t\n     \n\n  ",
                             "id": "1.4.13",
                             "name": "Content on Hover or Focus",
                             "level": "AA"
@@ -336,7 +336,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All <a href=\"#dfn-functionality\" class=\"internalDFN\" data-link-type=\"dfn\">functionality</a> of the content is operable through a <a href=\"#dfn-keyboard-interface\" class=\"internalDFN\" data-link-type=\"dfn\">keyboard interface</a> without requiring specific timings for individual keystrokes, except where the underlying\n      function requires input that depends on the path of the user&apos;s movement and not just\n      the endpoints.\n   </p>\n   \n   \n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying\n      function requires input that depends on the path of the user&apos;s movement and not just\n      the endpoints.\n   </p>\n   \n   \n   \n   \n   \n",
                             "id": "2.1.1",
                             "name": "Keyboard",
                             "level": "A"
@@ -346,7 +346,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If keyboard focus can be moved to a component of the page using a <a href=\"#dfn-keyboard-interface\" class=\"internalDFN\" data-link-type=\"dfn\">keyboard interface</a>, then focus can be moved away from that component using only a keyboard interface,\n      and, if it requires more than unmodified arrow or tab keys or other standard exit\n      methods, the user is advised of the method for moving focus away.\n   </p>\n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface,\n      and, if it requires more than unmodified arrow or tab keys or other standard exit\n      methods, the user is advised of the method for moving focus away.\n   </p>\n   \n   \n   \n",
                             "id": "2.1.2",
                             "name": "No Keyboard Trap",
                             "level": "A"
@@ -356,7 +356,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard-no-exception"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All <a href=\"#dfn-functionality\" class=\"internalDFN\" data-link-type=\"dfn\">functionality</a> of the content is operable through a <a href=\"#dfn-keyboard-interface\" class=\"internalDFN\" data-link-type=\"dfn\">keyboard interface</a> without requiring specific timings for individual keystrokes.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.\n   </p>\n   \n",
                             "id": "2.1.3",
                             "name": "Keyboard (No Exception)",
                             "level": "AAA"
@@ -366,7 +366,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>If a <a href=\"#dfn-keyboard-shortcuts\" class=\"internalDFN\" data-link-type=\"dfn\">keyboard shortcut</a> is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>\n\n  <dl>\n   \n   <dt>Turn off</dt>\n    <dd>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to turn the shortcut off;</dd>\n      \t\t\t\t\t\t\n   <dt>Remap</dt>\n     <dd>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt);</dd>\n\n    <dt>Active only on focus</dt>\n    <dd>The keyboard shortcut for a <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">user interface component</a> is only active when that component has focus.</dd>\n    \n  </dl>  \n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>\n\n  <dl>\n   \n   <dt>Turn off</dt>\n    <dd>A mechanism is available to turn the shortcut off;</dd>\n      \t\t\t\t\t\t\n   <dt>Remap</dt>\n     <dd>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt);</dd>\n\n    <dt>Active only on focus</dt>\n    <dd>The keyboard shortcut for a user interface component is only active when that component has focus.</dd>\n    \n  </dl>  \n",
                             "id": "2.1.4",
                             "name": "Character Key Shortcuts",
                             "level": "A"
@@ -383,7 +383,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For each time limit that is set by the content, at least one of the following is true:</p>\n   \n   <dl>\n      \n      <dt>Turn off</dt>\n      \n      <dd>\n         \n         <p>The user is allowed to turn off the time limit before encountering it; or</p>\n         \n      </dd>\n      \n      <dt>Adjust</dt>\n      \n      <dd>\n         \n         <p>The user is allowed to adjust the time limit before encountering it over a wide range\n            that is at least ten times the length of the default setting; or\n         </p>\n         \n      </dd>\n      \n      <dt>Extend</dt>\n      \n      <dd>\n         \n         <p>The user is warned before time expires and given at least 20 seconds to extend the\n            time limit with a simple action (for example, &quot;press the space bar&quot;), and the user\n            is allowed to extend the time limit at least ten times; or\n         </p>\n         \n      </dd>\n      \n      <dt>Real-time Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is a required part of a real-time event (for example, an auction),\n            and no alternative to the time limit is possible; or\n         </p>\n         \n      </dd>\n      \n      <dt>Essential Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> and extending it would invalidate the activity; or\n         </p>\n         \n      </dd>\n      \n      <dt>20 Hour Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is longer than 20 hours.</p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For each time limit that is set by the content, at least one of the following is true:</p>\n   \n   <dl>\n      \n      <dt>Turn off</dt>\n      \n      <dd>\n         \n         <p>The user is allowed to turn off the time limit before encountering it; or</p>\n         \n      </dd>\n      \n      <dt>Adjust</dt>\n      \n      <dd>\n         \n         <p>The user is allowed to adjust the time limit before encountering it over a wide range\n            that is at least ten times the length of the default setting; or\n         </p>\n         \n      </dd>\n      \n      <dt>Extend</dt>\n      \n      <dd>\n         \n         <p>The user is warned before time expires and given at least 20 seconds to extend the\n            time limit with a simple action (for example, &quot;press the space bar&quot;), and the user\n            is allowed to extend the time limit at least ten times; or\n         </p>\n         \n      </dd>\n      \n      <dt>Real-time Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is a required part of a real-time event (for example, an auction),\n            and no alternative to the time limit is possible; or\n         </p>\n         \n      </dd>\n      \n      <dt>Essential Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is essential and extending it would invalidate the activity; or\n         </p>\n         \n      </dd>\n      \n      <dt>20 Hour Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is longer than 20 hours.</p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n",
                             "id": "2.2.1",
                             "name": "Timing Adjustable",
                             "level": "A"
@@ -393,7 +393,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For moving, <a href=\"#dfn-blinking\" class=\"internalDFN\" data-link-type=\"dfn\">blinking</a>, scrolling, or auto-updating information, all of the following are true:\n   </p>\n   \n   <dl>\n      \n      <dt>Moving, blinking, scrolling</dt>\n      \n      <dd>\n         \n         <p>For any moving, blinking or scrolling information that (1) starts automatically, (2)\n            lasts more than five seconds, and (3) is presented in parallel with other content,\n            there is a mechanism for the user to <a href=\"#dfn-pause\" class=\"internalDFN\" data-link-type=\"dfn\">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity\n            where it is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a>; and\n         </p>\n         \n      </dd>\n      \n      <dt>Auto-updating</dt>\n      \n      <dd>\n         \n         <p>For any auto-updating information that (1) starts automatically and (2) is presented\n            in parallel with other content, there is a mechanism for the user to pause, stop,\n            or hide it or to control the frequency of the update unless the auto-updating is part\n            of an activity where it is essential.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n   \n   \n   \n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For moving, blinking, scrolling, or auto-updating information, all of the following are true:\n   </p>\n   \n   <dl>\n      \n      <dt>Moving, blinking, scrolling</dt>\n      \n      <dd>\n         \n         <p>For any moving, blinking or scrolling information that (1) starts automatically, (2)\n            lasts more than five seconds, and (3) is presented in parallel with other content,\n            there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity\n            where it is essential; and\n         </p>\n         \n      </dd>\n      \n      <dt>Auto-updating</dt>\n      \n      <dd>\n         \n         <p>For any auto-updating information that (1) starts automatically and (2) is presented\n            in parallel with other content, there is a mechanism for the user to pause, stop,\n            or hide it or to control the frequency of the update unless the auto-updating is part\n            of an activity where it is essential.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n   \n   \n   \n   \n   \n   \n",
                             "id": "2.2.2",
                             "name": "Pause, Stop, Hide",
                             "level": "A"
@@ -403,7 +403,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/no-timing.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#no-timing"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Timing is not an <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> part of the event or activity presented by the content, except for non-interactive\n      <a href=\"#dfn-synchronized-media\" class=\"internalDFN\" data-link-type=\"dfn\">synchronized media</a> and <a href=\"#dfn-real-time-events\" class=\"internalDFN\" data-link-type=\"dfn\">real-time events</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Timing is not an essential part of the event or activity presented by the content, except for non-interactive\n      synchronized media and real-time events.\n   </p>\n   \n",
                             "id": "2.2.3",
                             "name": "No Timing",
                             "level": "AAA"
@@ -413,7 +413,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/interruptions.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#interruptions"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Interruptions can be postponed or suppressed by the user, except interruptions involving\n      an <a href=\"#dfn-emergency\" class=\"internalDFN\" data-link-type=\"dfn\">emergency</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Interruptions can be postponed or suppressed by the user, except interruptions involving\n      an emergency.\n   </p>\n   \n",
                             "id": "2.2.4",
                             "name": "Interruptions",
                             "level": "AAA"
@@ -433,7 +433,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#timeouts"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>Users are warned of the duration of any <a href=\"#dfn-user-inactivity\" class=\"internalDFN\" data-link-type=\"dfn\">user inactivity</a> that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.</p>\n  \n\n  \n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>Users are warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.</p>\n  \n\n  \n",
                             "id": "2.2.6",
                             "name": "Timeouts",
                             "level": "AAA"
@@ -450,7 +450,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web pages</a> do not contain anything that flashes more than three times in any one second period,\n      or the <a href=\"#dfn-flashes\" class=\"internalDFN\" data-link-type=\"dfn\">flash</a> is below the <a href=\"#dfn-general-flash-and-red-flash-thresholds\" class=\"internalDFN\" data-link-type=\"dfn\">general flash and red flash thresholds</a>.\n   </p>\n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Web pages do not contain anything that flashes more than three times in any one second period,\n      or the flash is below the general flash and red flash thresholds.\n   </p>\n   \n   \n   \n",
                             "id": "2.3.1",
                             "name": "Three Flashes or Below Threshold",
                             "level": "A"
@@ -460,7 +460,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web pages</a> do not contain anything that <a href=\"#dfn-flashes\" class=\"internalDFN\" data-link-type=\"dfn\">flashes</a> more than three times in any one second period.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Web pages do not contain anything that flashes more than three times in any one second period.\n   </p>\n   \n",
                             "id": "2.3.2",
                             "name": "Three Flashes",
                             "level": "AAA"
@@ -470,7 +470,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#animation-from-interactions"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p><a href=\"#dfn-motion-animation\" class=\"internalDFN\" data-link-type=\"dfn\">Motion animation</a> triggered by interaction can be disabled, unless the animation is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> to the functionality or the information being conveyed.</p>\n   \t\t\t\t\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.</p>\n   \t\t\t\t\n",
                             "id": "2.3.3",
                             "name": "Animation from Interactions",
                             "level": "AAA"
@@ -487,7 +487,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to bypass blocks of content that are repeated on multiple <a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web pages</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.\n   </p>\n   \n",
                             "id": "2.4.1",
                             "name": "Bypass Blocks",
                             "level": "A"
@@ -497,7 +497,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#page-titled"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web pages</a> have titles that describe topic or purpose.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Web pages have titles that describe topic or purpose.\n   </p>\n   \n",
                             "id": "2.4.2",
                             "name": "Page Titled",
                             "level": "A"
@@ -507,7 +507,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-order"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If a <a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web page</a> can be <a href=\"#dfn-navigated-sequentially\" class=\"internalDFN\" data-link-type=\"dfn\">navigated sequentially</a> and the navigation sequences affect meaning or operation, focusable components receive\n      focus in an order that preserves meaning and operability.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive\n      focus in an order that preserves meaning and operability.\n   </p>\n   \n",
                             "id": "2.4.3",
                             "name": "Focus Order",
                             "level": "A"
@@ -517,7 +517,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The <a href=\"#dfn-purpose-of-each-link\" class=\"internalDFN\" data-link-type=\"dfn\">purpose of each link</a> can be determined from the link text alone or from the link text together with its\n      <a href=\"#dfn-programmatically-determined-link-context\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined link context</a>, except where the purpose of the link would be <a href=\"#dfn-ambiguous-to-users-in-general\" class=\"internalDFN\" data-link-type=\"dfn\">ambiguous to users in general</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The purpose of each link can be determined from the link text alone or from the link text together with its\n      programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.\n   </p>\n   \n",
                             "id": "2.4.4",
                             "name": "Link Purpose (In Context)",
                             "level": "A"
@@ -527,7 +527,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#multiple-ways"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>More than one way is available to locate a <a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web page</a> within a <a href=\"#dfn-set-of-web-pages\" class=\"internalDFN\" data-link-type=\"dfn\">set of Web pages</a> except where the Web Page is the result of, or a step in, a <a href=\"#dfn-processes\" class=\"internalDFN\" data-link-type=\"dfn\">process</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.\n   </p>\n   \n",
                             "id": "2.4.5",
                             "name": "Multiple Ways",
                             "level": "AA"
@@ -537,7 +537,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Headings and <a href=\"#dfn-labels\" class=\"internalDFN\" data-link-type=\"dfn\">labels</a> describe topic or purpose.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Headings and labels describe topic or purpose.\n   </p>\n   \n",
                             "id": "2.4.6",
                             "name": "Headings and Labels",
                             "level": "AA"
@@ -557,7 +557,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/location.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#location"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Information about the user&apos;s location within a <a href=\"#dfn-set-of-web-pages\" class=\"internalDFN\" data-link-type=\"dfn\">set of Web pages</a> is available.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Information about the user&apos;s location within a set of Web pages is available.\n   </p>\n   \n",
                             "id": "2.4.8",
                             "name": "Location",
                             "level": "AAA"
@@ -567,7 +567,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-link-only.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to allow the purpose of each link to be identified from link text alone,\n      except where the purpose of the link would be <a href=\"#dfn-ambiguous-to-users-in-general\" class=\"internalDFN\" data-link-type=\"dfn\">ambiguous to users in general</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available to allow the purpose of each link to be identified from link text alone,\n      except where the purpose of the link would be ambiguous to users in general.\n   </p>\n   \n",
                             "id": "2.4.9",
                             "name": "Link Purpose (Link Only)",
                             "level": "AAA"
@@ -577,7 +577,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#section-headings"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p><a href=\"#dfn-section\" class=\"internalDFN\" data-link-type=\"dfn\">Section</a> headings are used to organize the content.\n   </p>\n   \n   \n   \n   \n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Section headings are used to organize the content.\n   </p>\n   \n   \n   \n   \n   \n",
                             "id": "2.4.10",
                             "name": "Section Headings",
                             "level": "AAA"
@@ -587,7 +587,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible-enhanced.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-visible-enhanced"
                             },
-                            "contentMarkup": "\n   \n    \n    \n    \n\t<p class=\"change\">[New]</p>\n    \n    <p>When a <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">User Interface Component</a> displays a visible keyboard <a href=\"#dfn-focus\" class=\"internalDFN\" data-link-type=\"dfn\">focus</a>, all of the following are true:</p>\n    <ul>\n        <li><strong>Minimum area:</strong> The <a href=\"#dfn-focus-indication-area\" class=\"internalDFN\" data-link-type=\"dfn\">focus indication area</a> is greater than or equal to the longest side of the bounding rectangle of the focused control, times 2 <a href=\"#dfn-css-pixels\" class=\"internalDFN\" data-link-type=\"dfn\">CSS pixels</a>.</li>\n        <li><strong>Focus contrast:</strong> Color changes used to indicate focus have at least a 3:1 contrast ratio with the colors changed from the unfocused control.</li>\n        <li><strong>Contrast or thickness:</strong> The focus indication area has a 3:1 contrast ratio against all adjacent colors for the minimum area or greater, or has a thickness of at least 2 CSS pixels.</li>\n    </ul>\n    \n    \n ",
+                            "contentMarkup": "\n   \n    \n    \n    \n\t<p class=\"change\">[New]</p>\n    \n    <p>When a User Interface Component displays a visible keyboard focus, all of the following are true:</p>\n    <ul>\n        <li><strong>Minimum area:</strong> The focus indication area is greater than or equal to the longest side of the bounding rectangle of the focused control, times 2 CSS pixels.</li>\n        <li><strong>Focus contrast:</strong> Color changes used to indicate focus have at least a 3:1 contrast ratio with the colors changed from the unfocused control.</li>\n        <li><strong>Contrast or thickness:</strong> The focus indication area has a 3:1 contrast ratio against all adjacent colors for the minimum area or greater, or has a thickness of at least 2 CSS pixels.</li>\n    </ul>\n    \n    \n ",
                             "id": "2.4.11",
                             "name": "Focus Visible (Enhanced)",
                             "level": "AA"
@@ -604,7 +604,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>All <a href=\"#dfn-functionality\" class=\"internalDFN\" data-link-type=\"dfn\">functionality</a> that uses multipoint or path-based gestures for operation can be operated with a <a href=\"#dfn-single-pointer\" class=\"internalDFN\" data-link-type=\"dfn\">single pointer</a> without a path-based gesture, unless a multipoint or path-based gesture is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a>.</p>\n   \t\t\t\t\t\n   \n\t\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.</p>\n   \t\t\t\t\t\n   \n\t\n",
                             "id": "2.5.1",
                             "name": "Pointer Gestures",
                             "level": "A"
@@ -614,7 +614,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>For <a href=\"#dfn-functionality\" class=\"internalDFN\" data-link-type=\"dfn\">functionality</a> that can be operated using a <a href=\"#dfn-single-pointer\" class=\"internalDFN\" data-link-type=\"dfn\">single pointer</a>, at least one of the following is true:</p>\n   \t\t\t\t\t\n   <dl>\n   \n   <dt>No Down-Event</dt>\n     <dd>The <a href=\"#dfn-down-event\" class=\"internalDFN\" data-link-type=\"dfn\">down-event</a> of the pointer is not used to execute any part of the function;</dd>\n      \t\t\t\t\t\t\n   <dt>Abort or Undo</dt>\n     <dd>Completion of the function is on the <a href=\"#dfn-up-event\" class=\"internalDFN\" data-link-type=\"dfn\">up-event</a>, and a <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available to abort the function before completion or to undo the function after completion;</dd>\n      \t\t\t\t\t\t\n   <dt>Up Reversal</dt>\n     <dd>The up-event reverses any outcome of the preceding down-event;</dd>\n      \t\t\t\t\t\t\n   <dt>Essential</dt>\n     <dd>Completing the function on the down-event is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a>.</dd>\n      \t\t\t\t\t\t\n   </dl>\n   \n   \t\t\t\t\t\n  \n\t\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>For functionality that can be operated using a single pointer, at least one of the following is true:</p>\n   \t\t\t\t\t\n   <dl>\n   \n   <dt>No Down-Event</dt>\n     <dd>The down-event of the pointer is not used to execute any part of the function;</dd>\n      \t\t\t\t\t\t\n   <dt>Abort or Undo</dt>\n     <dd>Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</dd>\n      \t\t\t\t\t\t\n   <dt>Up Reversal</dt>\n     <dd>The up-event reverses any outcome of the preceding down-event;</dd>\n      \t\t\t\t\t\t\n   <dt>Essential</dt>\n     <dd>Completing the function on the down-event is essential.</dd>\n      \t\t\t\t\t\t\n   </dl>\n   \n   \t\t\t\t\t\n  \n\t\n",
                             "id": "2.5.2",
                             "name": "Pointer Cancellation",
                             "level": "A"
@@ -624,7 +624,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#label-in-name"
                             },
-                            "contentMarkup": "\n   \n   \n\t\n  <p>For <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">user interface components</a> with <a href=\"#dfn-labels\" class=\"internalDFN\" data-link-type=\"dfn\">labels</a> that include <a href=\"#dfn-text\" class=\"internalDFN\" data-link-type=\"dfn\">text</a> or <a href=\"#dfn-images-of-text\" class=\"internalDFN\" data-link-type=\"dfn\">images of text</a>, the <a href=\"#dfn-name\" class=\"internalDFN\" data-link-type=\"dfn\">name</a> contains the text that is presented visually.</p>\n\n  \n\t\n",
+                            "contentMarkup": "\n   \n   \n\t\n  <p>For user interface components with labels that include text or images of text, the name contains the text that is presented visually.</p>\n\n  \n\t\n",
                             "id": "2.5.3",
                             "name": "Label in Name",
                             "level": "A"
@@ -634,7 +634,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n  \n   \n   \t\t\t\t\t\n   <p><a href=\"#dfn-functionality\" class=\"internalDFN\" data-link-type=\"dfn\">Functionality</a> that can be operated by device motion or user motion can also be operated by <a href=\"#dfn-user-interface-components\" class=\"internalDFN\" data-link-type=\"dfn\">user interface components</a> and responding to the motion can be disabled to prevent accidental actuation, except when:</p>\n   \n   <dl>\n   \n   <dt>Supported Interface</dt>\n     <dd>The motion is used to operate functionality through an <a href=\"#dfn-accessibility-supported\" class=\"internalDFN\" data-link-type=\"dfn\">accessibility supported</a> interface;</dd>\n   \n   <dt>Essential</dt>\n   <dd>The motion is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> for the function and doing so would invalidate the activity.</dd>\n   \n   </dl>\n   \t\t\t\t\n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n  \n   \n   \t\t\t\t\t\n   <p>Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:</p>\n   \n   <dl>\n   \n   <dt>Supported Interface</dt>\n     <dd>The motion is used to operate functionality through an accessibility supported interface;</dd>\n   \n   <dt>Essential</dt>\n   <dd>The motion is essential for the function and doing so would invalidate the activity.</dd>\n   \n   </dl>\n   \t\t\t\t\n",
                             "id": "2.5.4",
                             "name": "Motion Actuation",
                             "level": "A"
@@ -644,7 +644,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#target-size"
                             },
-                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>The size of the <a href=\"#dfn-target\" class=\"internalDFN\" data-link-type=\"dfn\">target</a> for <a href=\"#dfn-pointer-inputs\" class=\"internalDFN\" data-link-type=\"dfn\">pointer inputs</a> is at least 44 by 44 <a href=\"#dfn-css-pixels\" class=\"internalDFN\" data-link-type=\"dfn\">CSS pixels</a> except when:</p>\n<dl>\n\t<dt>Equivalent</dt> \n  <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>\n\t<dt>Inline</dt> \n  <dd>The target is in a sentence or block of text;</dd>\n\t<dt>User Agent Control</dt> \n  <dd>The size of the target is determined by the user agent and is not modified by the author;</dd>\n\t<dt>Essential</dt> \n  <dd>A particular presentation of the target is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a> to the information being conveyed.</dd>\n</dl>  \n   \n",
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>The size of the target for pointer inputs is at least 44 by 44 CSS pixels except when:</p>\n<dl>\n\t<dt>Equivalent</dt> \n  <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>\n\t<dt>Inline</dt> \n  <dd>The target is in a sentence or block of text;</dd>\n\t<dt>User Agent Control</dt> \n  <dd>The size of the target is determined by the user agent and is not modified by the author;</dd>\n\t<dt>Essential</dt> \n  <dd>A particular presentation of the target is essential to the information being conveyed.</dd>\n</dl>  \n   \n",
                             "id": "2.5.5",
                             "name": "Target Size",
                             "level": "AAA"
@@ -654,7 +654,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#concurrent-input-mechanisms"
                             },
-                            "contentMarkup": "\n   \n   \n  <p>Web content does not restrict use of input modalities available on a platform except where the restriction is <a href=\"#dfn-essential\" class=\"internalDFN\" data-link-type=\"dfn\">essential</a>, required to ensure the security of the content, or required to respect user settings.</p>   \t\t\t\t\t\n",
+                            "contentMarkup": "\n   \n   \n  <p>Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.</p>   \t\t\t\t\t\n",
                             "id": "2.5.6",
                             "name": "Concurrent Input Mechanisms",
                             "level": "AAA"
@@ -678,7 +678,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-page"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The default <a href=\"#dfn-human-language-s\" class=\"internalDFN\" data-link-type=\"dfn\">human language</a> of each <a href=\"#dfn-web-page-s\" class=\"internalDFN\" data-link-type=\"dfn\">Web page</a> can be <a href=\"#dfn-programmatically-determinable\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The default human language of each Web page can be programmatically determined.\n   </p>\n   \n",
                             "id": "3.1.1",
                             "name": "Language of Page",
                             "level": "A"
@@ -688,7 +688,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The <a href=\"#dfn-human-language-s\" class=\"internalDFN\" data-link-type=\"dfn\">human language</a> of each passage or phrase in the content can be <a href=\"#dfn-programmatically-determinable\" class=\"internalDFN\" data-link-type=\"dfn\">programmatically determined</a> except for proper names, technical terms, words of indeterminate language, and words\n      or phrases that have become part of the vernacular of the immediately surrounding\n      text.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words\n      or phrases that have become part of the vernacular of the immediately surrounding\n      text.\n   </p>\n   \n",
                             "id": "3.1.2",
                             "name": "Language of Parts",
                             "level": "AA"
@@ -698,7 +698,7 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#unusual-words"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> is available for identifying specific definitions of words or phrases <a href=\"#dfn-used-in-an-unusual-or-restricted-way\" class=\"internalDFN\" data-link-type=\"dfn\">used in an unusual or restricted way</a>, including <a href=\"#dfn-idioms\" class=\"internalDFN\" data-link-type=\"dfn\">idioms</a> and <a href=\"#dfn-jargon\" class=\"internalDFN\" data-link-type=\"dfn\">jargon</a>.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon.\n   </p>\n   \n",
                             "id": "3.1.3",
                             "name": "Unusual Words",
                             "level": "AAA"
@@ -708,7 +708,209 @@
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html",
                                 "meet": "https://www.w3.org/WAI/WCAG21/quickref/#abbreviations"
                             },
-                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> for identifying the expanded form or meaning of <a href=\"#dfn-abbreviations\" class=\"internalDFN\" data-link-type=\"dfn\">abbreviations</a> is available.\n   </p>\n   \n",
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism for identifying the expanded form or meaning of abbreviations is available.\n   </p>\n   \n",
+                            "id": "3.1.4",
+                            "name": "Abbreviations",
+                            "level": "AAA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#reading-level"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower\n      secondary education level, is available.\n   </p>\n   \n",
+                            "id": "3.1.5",
+                            "name": "Reading Level",
+                            "level": "AAA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pronunciation.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pronunciation"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available for identifying specific pronunciation of words where meaning of the\n      words, in context, is ambiguous without knowing the pronunciation.\n   </p>\n   \n",
+                            "id": "3.1.6",
+                            "name": "Pronunciation",
+                            "level": "AAA"
+                        }
+                    ],
+                    "id": "3.1",
+                    "name": "Readable"
+                },
+                {
+                    "paraText": "Make Web pages appear and operate in predictable ways.",
+                    "successCriteria": [
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#on-focus"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When any user interface component receives focus, it does not initiate a change of context.\n   </p>\n   \n",
+                            "id": "3.2.1",
+                            "name": "On Focus",
+                            "level": "A"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/on-input.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#on-input"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.\n   </p>\n   \n",
+                            "id": "3.2.2",
+                            "name": "On Input",
+                            "level": "A"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.\n   </p>\n   \n",
+                            "id": "3.2.3",
+                            "name": "Consistent Navigation",
+                            "level": "AA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Components that have the same functionality within a set of Web pages are identified consistently.\n   </p>\n   \n",
+                            "id": "3.2.4",
+                            "name": "Consistent Identification",
+                            "level": "AA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/change-on-request.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#change-on-request"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Changes of context are initiated only by user request or a mechanism is available to turn off such changes.\n   </p>\n   \n",
+                            "id": "3.2.5",
+                            "name": "Change on Request",
+                            "level": "AAA"
+                        }
+                    ],
+                    "id": "3.2",
+                    "name": "Predictable"
+                },
+                {
+                    "paraText": "Help users avoid and correct mistakes.",
+                    "successCriteria": [
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-identification"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If an input error is automatically detected, the item that is in error is identified and the error\n      is described to the user in text.\n   </p>\n   \n",
+                            "id": "3.3.1",
+                            "name": "Error Identification",
+                            "level": "A"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Labels or instructions are provided when content requires user input.\n   </p>\n   \n",
+                            "id": "3.3.2",
+                            "name": "Labels or Instructions",
+                            "level": "A"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If an input error is automatically detected and suggestions for correction are known, then the suggestions\n      are provided to the user, unless it would jeopardize the security or purpose of the\n      content.\n   </p>\n   \n",
+                            "id": "3.3.3",
+                            "name": "Error Suggestion",
+                            "level": "AA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of\n      the following is true:\n   </p>\n\n   <dl>\n     <dt>Reversible</dt><dd>Submissions are reversible.</dd>\n     <dt>Checked</dt><dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>\n     <dt>Confirmed</dt><dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>\n  </dl>\n  \n",
+                            "id": "3.3.4",
+                            "name": "Error Prevention (Legal, Financial, Data)",
+                            "level": "AA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/help.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#help"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Context-sensitive help is available.\n   </p>\n   \n",
+                            "id": "3.3.5",
+                            "name": "Help",
+                            "level": "AAA"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-all.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-all"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For Web pages that require the user to submit information, at least one of the following is true:\n   </p>\n   \n   <dl>\n     <dt>Reversible</dt><dd>Submissions are reversible.</dd>\n     <dt>Checked</dt><dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>\n     <dt>Confirmed</dt><dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>\n  </dl>\n\n",
+                            "id": "3.3.6",
+                            "name": "Error Prevention (All)",
+                            "level": "AAA"
+                        }
+                    ],
+                    "id": "3.3",
+                    "name": "Input Assistance"
+                }
+            ],
+            "id": "3.",
+            "name": "Understandable "
+        },
+        {
+            "paraText": "Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.",
+            "guidelines": [
+                {
+                    "paraText": "Maximize compatibility with current and future user agents, including assistive technologies.",
+                    "successCriteria": [
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/parsing.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#parsing"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>In content implemented using markup languages, elements have complete start and end\n      tags, elements are nested according to their specifications, elements do not contain\n      duplicate attributes, and any IDs are unique, except where the specifications allow\n      these features.\n   </p>\n   \n   \n   \n",
+                            "id": "4.1.1",
+                            "name": "Parsing",
+                            "level": "A"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#name-role-value"
+                            },
+                            "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For all user interface components (including but not limited to: form elements, links and components generated by scripts),\n      the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.\n   </p>\n   \n   \n   \n",
+                            "id": "4.1.2",
+                            "name": "Name, Role, Value",
+                            "level": "A"
+                        },
+                        {
+                            "links": {
+                                "understand": "https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html",
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#status-messages"
+                            },
+                            "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.</p>\n   \t\t\t\t\n",
+                            "id": "4.1.3",
+                            "name": "Status Messages",
+                            "level": "AA"
+                        }
+                    ],
+                    "id": "4.1",
+                    "name": "Compatible"
+                }
+            ],
+            "id": "4.",
+            "name": "Robust "
+        }
+    ]
+}                           "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A <a href=\"#dfn-mechanism\" class=\"internalDFN\" data-link-type=\"dfn\">mechanism</a> for identifying the expanded form or meaning of <a href=\"#dfn-abbreviations\" class=\"internalDFN\" data-link-type=\"dfn\">abbreviations</a> is available.\n   </p>\n   \n",
                             "id": "3.1.4",
                             "name": "Abbreviations",
                             "level": "AAA"

@@ -9,7 +9,7 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
 
   traverse(formattedData).forEach(function (
     this: traverse.TraverseContext,
-    _value: any
+    _value: any,
   ) {
     if (this?.node?.hasOwnProperty("headingText")) {
       const scrapedHeadingText = this.node.headingText;
@@ -27,7 +27,7 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
 
   traverse(formattedData).forEach(function (
     this: traverse.TraverseContext,
-    _value: any
+    _value: any,
   ) {
     if (this?.key?.includes("links")) {
       const linksObj = this.node;
@@ -51,7 +51,7 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
 
   traverse(formattedData).forEach(function (
     this: traverse.TraverseContext,
-    _value: any
+    _value: any,
   ) {
     if (this?.node?.hasOwnProperty("levelText")) {
       const levelText = this.node.levelText;
@@ -60,6 +60,18 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
 
       this.node["level"] = levelCat;
       delete this.node["levelText"];
+    }
+  });
+
+  traverse(formattedData).forEach(function (
+    this: traverse.TraverseContext,
+    value: any,
+  ) {
+    //Stripping links to in-page definitions that are broken out of context
+    if (typeof value === "string" && value.includes("</a>")) {
+      const contentMinusLinks: string = value.replace(/<\/?a[^>]*>/g, "");
+
+      this.update(contentMinusLinks);
     }
   });
 
