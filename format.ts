@@ -45,6 +45,10 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
 
       const modifiedLinksObj = Object.fromEntries(modifiedKvPairs);
 
+      modifiedLinksObj["examples"] = `${
+        modifiedLinksObj["understand"]
+      }#examples`;
+
       this.update(modifiedLinksObj);
     }
   });

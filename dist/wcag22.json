@@ -9,7 +9,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-content"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-content",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.\n   </p>\n   \n   <dl>\n      \n      <dt>Controls, Input</dt>\n      \n      <dd>\n         \n         <p>If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.)\n         </p>\n         \n      </dd>\n      \n      <dt>Time-Based Media</dt>\n      \n      <dd>\n         \n         <p>If non-text content is time-based media, then text alternatives at least provide descriptive\n            identification of the non-text content. (Refer to Guideline 1.2 for additional requirements for media.)\n         </p>\n         \n      </dd>\n      \n      <dt>Test</dt>\n      \n      <dd>\n         \n         <p>If non-text content is a test or exercise that would be invalid if presented in text, then text alternatives at least provide descriptive identification of the non-text\n            content.\n         </p>\n         \n      </dd>\n      \n      <dt>Sensory</dt>\n      \n      <dd>\n         \n         <p>If non-text content is primarily intended to create a specific sensory experience, then text alternatives at least provide descriptive identification of the non-text\n            content.\n         </p>\n         \n      </dd>\n      \n      <dt>CAPTCHA</dt>\n      \n      <dd>\n         \n         <p>If the purpose of non-text content is to confirm that content is being accessed by\n            a person rather than a computer, then text alternatives that identify and describe\n            the purpose of the non-text content are provided, and alternative forms of CAPTCHA\n            using output modes for different types of sensory perception are provided to accommodate\n            different disabilities.\n         </p>\n         \n      </dd>\n      \n      <dt>Decoration, Formatting, Invisible</dt>\n      \n      <dd>\n         \n         <p>If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented\n            in a way that it can be ignored by assistive technology.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.1.1",
@@ -26,7 +27,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For prerecorded\n      audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:\n   </p>\n   \n   <dl>\n      \n      <dt>Prerecorded Audio-only</dt>\n      \n      <dd>\n         \n         <p>An alternative for time-based media is provided that presents equivalent information for prerecorded audio-only content.\n         </p>\n         \n      </dd>\n      \n      <dt>Prerecorded Video-only</dt>\n      \n      <dd>\n         \n         <p>Either an alternative for time-based media or an audio track is provided that presents\n            equivalent information for prerecorded video-only content.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.2.1",
@@ -36,7 +38,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Captions are provided for all prerecorded\n      audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.\n   </p>\n   \n",
                             "id": "1.2.2",
@@ -46,7 +49,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An alternative for time-based media or audio description of the prerecorded\n      video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.\n   </p>\n   \n",
                             "id": "1.2.3",
@@ -56,7 +60,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#captions-live"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#captions-live",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Captions are provided for all live\n      audio content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.4",
@@ -66,7 +71,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Audio description is provided for all prerecorded\n      video content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.5",
@@ -76,7 +82,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Sign language interpretation is provided for all prerecorded\n      audio content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.6",
@@ -86,7 +93,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#extended-audio-description-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#extended-audio-description-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded\n      video content in synchronized media.\n   </p>\n   \n",
                             "id": "1.2.7",
@@ -96,7 +104,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#media-alternative-prerecorded"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#media-alternative-prerecorded",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An alternative for time-based media is provided for all prerecorded\n      synchronized media and for all prerecorded video-only media.\n   </p>\n   \n",
                             "id": "1.2.8",
@@ -106,7 +115,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-live"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-live",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>An alternative for time-based media that presents equivalent information for live\n      audio-only content is provided.\n   </p>\n   \n",
                             "id": "1.2.9",
@@ -123,7 +133,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.\n   </p>\n   \n",
                             "id": "1.3.1",
@@ -133,7 +144,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.\n   </p>\n   \n",
                             "id": "1.3.2",
@@ -143,7 +155,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Instructions provided for understanding and operating content do not rely solely on\n      sensory characteristics of components such as shape, color, size, visual location, orientation,\n      or sound.\n   </p>\n  \n  \n   \n",
                             "id": "1.3.3",
@@ -153,7 +166,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#orientation"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#orientation",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.</p>\n   \t\t\t\t\n   \n   \t\t\t\t\t\n",
                             "id": "1.3.4",
@@ -163,7 +177,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html#examples"
                             },
                             "contentMarkup": "\n\t\n\t\n\t\n\t\n\t\n\t<p>The purpose of each input field collecting information about the user can be programmatically determined when:</p>\n  \n  <ul>\n    <li>The input field serves a purpose identified in the Input Purposes for User Interface Components section; and</li>\n    <li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>\n  </ul>\n  \n",
                             "id": "1.3.5",
@@ -173,7 +188,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/identify-purpose.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#identify-purpose"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#identify-purpose",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/identify-purpose.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>In content implemented using markup languages, the purpose of User Interface Components, icons, and regions can be programmatically determined.</p>\n",
                             "id": "1.3.6",
@@ -190,7 +206,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#use-of-color"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#use-of-color",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Color is not used as the only visual means of conveying information, indicating an\n      action, prompting a response, or distinguishing a visual element.\n   </p>\n   \n   \n  \n",
                             "id": "1.4.1",
@@ -200,7 +217,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-control"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#audio-control",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio\n      volume independently from the overall system volume level.\n   </p>\n   \n   \n   \n",
                             "id": "1.4.2",
@@ -210,7 +228,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p>Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.4.3",
@@ -220,7 +239,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#resize-text"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#resize-text",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.\n   </p>\n   \n",
                             "id": "1.4.4",
@@ -230,7 +250,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Customizable</dt>\n      \n      <dd>\n         \n         <p>The image of text can be visually customized to the user&apos;s requirements;\n         </p>\n         \n      </dd>\n      \n      <dt>Essential</dt>\n      \n      <dd>\n         \n         <p>A particular presentation of text is essential to the information being conveyed.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n",
                             "id": "1.4.5",
@@ -240,7 +261,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p>Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.4.6",
@@ -250,7 +272,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#low-or-no-background-audio"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#low-or-no-background-audio",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For prerecorded\n      audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio\n      CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression\n      such as singing or rapping, at least one of the following is true:\n   </p>\n   \n   <dl>\n      \n      <dt>No Background</dt>\n      \n      <dd>\n         \n         <p>The audio does not contain background sounds.</p>\n         \n      </dd>\n      \n      <dt>Turn Off</dt>\n      \n      <dd>\n         \n         <p>The background sounds can be turned off.</p>\n         \n      </dd>\n      \n      <dt>20 dB</dt>\n      \n      <dd>\n         \n         <p>The background sounds are at least 20 decibels lower than the foreground speech content,\n            with the exception of occasional sounds that last for only one or two seconds.\n         </p>\n         \n         \n         \n      </dd>\n      \n   </dl>\n   \n",
                             "id": "1.4.7",
@@ -260,7 +283,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For the visual presentation of blocks of text, a mechanism is available to achieve the following:\n   </p>\n   <ul>\n     <li>Foreground and background colors can be selected by the user.</li>   \n     <li>Width is no more than 80 characters or glyphs (40 if CJK).</li>   \n     <li>Text is not justified (aligned to both the left and the right margins).</li>   \n     <li>Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.</li>   \n     <li>Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window.</li>   \n  </ul>\n  \n",
                             "id": "1.4.8",
@@ -270,7 +294,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text-no-exception.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text-no-exception"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text-no-exception",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text-no-exception.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.\n   </p>\n   \n   \n   \n",
                             "id": "1.4.9",
@@ -280,7 +305,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#reflow"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#reflow",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>\n   <ul>\n       <li>Vertical scrolling content at a width equivalent to 320 CSS pixels;</li>\n       <li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li>\n   </ul>\n   <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>\n  \n   \n   \n   \n   \t\t\t\t\n",
                             "id": "1.4.10",
@@ -290,7 +316,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>The visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):</p>\n   \t\t\t\t\t\n   <dl>\n      \t\t\t\t\t\t\n      <dt>User Interface Components</dt>\n      \t\t\t\t\t\t\n     <dd>Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</dd>\n      \t\t\t\t\t\t\n      <dt>Graphical Objects</dt>\n      \t\t\t\t\t\t\n      <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.</dd>\n      \t\t\t\t\t\t\n   </dl>\n  \n",
                             "id": "1.4.11",
@@ -300,7 +327,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#text-spacing"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#text-spacing",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>\n   \n   <ul>\n     <li>Line height (line spacing) to at least 1.5 times the font size;</li>\n     <li>Spacing following paragraphs to at least 2 times the font size;</li>\n     <li>Letter spacing (tracking) to at least 0.12 times the font size;</li>\n     <li>Word spacing to at least 0.16 times the font size.</li>\n   </ul>\n \n <p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>\n \n",
                             "id": "1.4.12",
@@ -310,7 +338,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n       \n    \t<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>\n\n  <dl>\n\n    <dt>Dismissible</dt>\n    <dd>A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;</dd>\n\n    <dt>Hoverable</dt>\n   <dd>If pointer hover can trigger the additional content, then the pointer can be moved  over the additional content without the additional content disappearing;</dd>\n\n    <dt>Persistent</dt>\n    <dd>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</dd>\n\n  </dl>\n    \t\n    \t<p>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>\n\n    \t\n     \n\n  ",
                             "id": "1.4.13",
@@ -334,7 +363,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying\n      function requires input that depends on the path of the user&apos;s movement and not just\n      the endpoints.\n   </p>\n   \n   \n   \n   \n   \n",
                             "id": "2.1.1",
@@ -344,7 +374,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface,\n      and, if it requires more than unmodified arrow or tab keys or other standard exit\n      methods, the user is advised of the method for moving focus away.\n   </p>\n   \n   \n   \n",
                             "id": "2.1.2",
@@ -354,7 +385,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard-no-exception"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard-no-exception",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.\n   </p>\n   \n",
                             "id": "2.1.3",
@@ -364,7 +396,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>\n\n  <dl>\n   \n   <dt>Turn off</dt>\n    <dd>A mechanism is available to turn the shortcut off;</dd>\n      \t\t\t\t\t\t\n   <dt>Remap</dt>\n     <dd>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt);</dd>\n\n    <dt>Active only on focus</dt>\n    <dd>The keyboard shortcut for a user interface component is only active when that component has focus.</dd>\n    \n  </dl>  \n",
                             "id": "2.1.4",
@@ -381,7 +414,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For each time limit that is set by the content, at least one of the following is true:</p>\n   \n   <dl>\n      \n      <dt>Turn off</dt>\n      \n      <dd>\n         \n         <p>The user is allowed to turn off the time limit before encountering it; or</p>\n         \n      </dd>\n      \n      <dt>Adjust</dt>\n      \n      <dd>\n         \n         <p>The user is allowed to adjust the time limit before encountering it over a wide range\n            that is at least ten times the length of the default setting; or\n         </p>\n         \n      </dd>\n      \n      <dt>Extend</dt>\n      \n      <dd>\n         \n         <p>The user is warned before time expires and given at least 20 seconds to extend the\n            time limit with a simple action (for example, &quot;press the space bar&quot;), and the user\n            is allowed to extend the time limit at least ten times; or\n         </p>\n         \n      </dd>\n      \n      <dt>Real-time Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is a required part of a real-time event (for example, an auction),\n            and no alternative to the time limit is possible; or\n         </p>\n         \n      </dd>\n      \n      <dt>Essential Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is essential and extending it would invalidate the activity; or\n         </p>\n         \n      </dd>\n      \n      <dt>20 Hour Exception</dt>\n      \n      <dd>\n         \n         <p>The time limit is longer than 20 hours.</p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n",
                             "id": "2.2.1",
@@ -391,7 +425,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For moving, blinking, scrolling, or auto-updating information, all of the following are true:\n   </p>\n   \n   <dl>\n      \n      <dt>Moving, blinking, scrolling</dt>\n      \n      <dd>\n         \n         <p>For any moving, blinking or scrolling information that (1) starts automatically, (2)\n            lasts more than five seconds, and (3) is presented in parallel with other content,\n            there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity\n            where it is essential; and\n         </p>\n         \n      </dd>\n      \n      <dt>Auto-updating</dt>\n      \n      <dd>\n         \n         <p>For any auto-updating information that (1) starts automatically and (2) is presented\n            in parallel with other content, there is a mechanism for the user to pause, stop,\n            or hide it or to control the frequency of the update unless the auto-updating is part\n            of an activity where it is essential.\n         </p>\n         \n      </dd>\n      \n   </dl>\n   \n   \n   \n   \n   \n   \n   \n   \n   \n",
                             "id": "2.2.2",
@@ -401,7 +436,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/no-timing.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#no-timing"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#no-timing",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/no-timing.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Timing is not an essential part of the event or activity presented by the content, except for non-interactive\n      synchronized media and real-time events.\n   </p>\n   \n",
                             "id": "2.2.3",
@@ -411,7 +447,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/interruptions.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#interruptions"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#interruptions",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/interruptions.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Interruptions can be postponed or suppressed by the user, except interruptions involving\n      an emergency.\n   </p>\n   \n",
                             "id": "2.2.4",
@@ -421,7 +458,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/re-authenticating.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#re-authenticating"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#re-authenticating",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/re-authenticating.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When an authenticated session expires, the user can continue the activity without\n      loss of data after re-authenticating.\n   </p>\n   \n",
                             "id": "2.2.5",
@@ -431,7 +469,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#timeouts"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#timeouts",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>Users are warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.</p>\n  \n\n  \n",
                             "id": "2.2.6",
@@ -448,7 +487,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Web pages do not contain anything that flashes more than three times in any one second period,\n      or the flash is below the general flash and red flash thresholds.\n   </p>\n   \n   \n   \n",
                             "id": "2.3.1",
@@ -458,7 +498,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Web pages do not contain anything that flashes more than three times in any one second period.\n   </p>\n   \n",
                             "id": "2.3.2",
@@ -468,7 +509,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#animation-from-interactions"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#animation-from-interactions",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.</p>\n   \t\t\t\t\n",
                             "id": "2.3.3",
@@ -485,7 +527,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.\n   </p>\n   \n",
                             "id": "2.4.1",
@@ -495,7 +538,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#page-titled"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#page-titled",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Web pages have titles that describe topic or purpose.\n   </p>\n   \n",
                             "id": "2.4.2",
@@ -505,7 +549,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-order"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-order",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive\n      focus in an order that preserves meaning and operability.\n   </p>\n   \n",
                             "id": "2.4.3",
@@ -515,7 +560,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The purpose of each link can be determined from the link text alone or from the link text together with its\n      programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.\n   </p>\n   \n",
                             "id": "2.4.4",
@@ -525,7 +571,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#multiple-ways"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#multiple-ways",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.\n   </p>\n   \n",
                             "id": "2.4.5",
@@ -535,7 +582,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Headings and labels describe topic or purpose.\n   </p>\n   \n",
                             "id": "2.4.6",
@@ -545,7 +593,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-visible"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-visible",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html#examples"
                             },
                             "contentMarkup": "\n   \n    \n    \n    \n\t<p class=\"change\">[Changed]</p>\n    \n    <p>Any keyboard operable user interface has a mode of operation where the keyboard focus\n       indicator is visible.\n    </p>\n    \n ",
                             "id": "2.4.7",
@@ -555,7 +604,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/location.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#location"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#location",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/location.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Information about the user&apos;s location within a set of Web pages is available.\n   </p>\n   \n",
                             "id": "2.4.8",
@@ -565,7 +615,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-link-only.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-link-only.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available to allow the purpose of each link to be identified from link text alone,\n      except where the purpose of the link would be ambiguous to users in general.\n   </p>\n   \n",
                             "id": "2.4.9",
@@ -575,7 +626,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#section-headings"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#section-headings",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Section headings are used to organize the content.\n   </p>\n   \n   \n   \n   \n   \n",
                             "id": "2.4.10",
@@ -585,7 +637,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible-enhanced.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-visible-enhanced"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#focus-visible-enhanced",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible-enhanced.html#examples"
                             },
                             "contentMarkup": "\n   \n    \n    \n    \n\t<p class=\"change\">[New]</p>\n    \n    <p>When a User Interface Component displays a visible keyboard focus, all of the following are true:</p>\n    <ul>\n        <li><strong>Minimum area:</strong> The focus indication area is greater than or equal to the longest side of the bounding rectangle of the focused control, times 2 CSS pixels.</li>\n        <li><strong>Focus contrast:</strong> Color changes used to indicate focus have at least a 3:1 contrast ratio with the colors changed from the unfocused control.</li>\n        <li><strong>Contrast or thickness:</strong> The focus indication area has a 3:1 contrast ratio against all adjacent colors for the minimum area or greater, or has a thickness of at least 2 CSS pixels.</li>\n    </ul>\n    \n    \n ",
                             "id": "2.4.11",
@@ -602,7 +655,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.</p>\n   \t\t\t\t\t\n   \n\t\n",
                             "id": "2.5.1",
@@ -612,7 +666,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>For functionality that can be operated using a single pointer, at least one of the following is true:</p>\n   \t\t\t\t\t\n   <dl>\n   \n   <dt>No Down-Event</dt>\n     <dd>The down-event of the pointer is not used to execute any part of the function;</dd>\n      \t\t\t\t\t\t\n   <dt>Abort or Undo</dt>\n     <dd>Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;</dd>\n      \t\t\t\t\t\t\n   <dt>Up Reversal</dt>\n     <dd>The up-event reverses any outcome of the preceding down-event;</dd>\n      \t\t\t\t\t\t\n   <dt>Essential</dt>\n     <dd>Completing the function on the down-event is essential.</dd>\n      \t\t\t\t\t\t\n   </dl>\n   \n   \t\t\t\t\t\n  \n\t\n",
                             "id": "2.5.2",
@@ -622,7 +677,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#label-in-name"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#label-in-name",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n\t\n  <p>For user interface components with labels that include text or images of text, the name contains the text that is presented visually.</p>\n\n  \n\t\n",
                             "id": "2.5.3",
@@ -632,7 +688,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n  \n   \n   \t\t\t\t\t\n   <p>Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:</p>\n   \n   <dl>\n   \n   <dt>Supported Interface</dt>\n     <dd>The motion is used to operate functionality through an accessibility supported interface;</dd>\n   \n   <dt>Essential</dt>\n   <dd>The motion is essential for the function and doing so would invalidate the activity.</dd>\n   \n   </dl>\n   \t\t\t\t\n",
                             "id": "2.5.4",
@@ -642,7 +699,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#target-size"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#target-size",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n  <p>The size of the target for pointer inputs is at least 44 by 44 CSS pixels except when:</p>\n<dl>\n\t<dt>Equivalent</dt> \n  <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>\n\t<dt>Inline</dt> \n  <dd>The target is in a sentence or block of text;</dd>\n\t<dt>User Agent Control</dt> \n  <dd>The size of the target is determined by the user agent and is not modified by the author;</dd>\n\t<dt>Essential</dt> \n  <dd>A particular presentation of the target is essential to the information being conveyed.</dd>\n</dl>  \n   \n",
                             "id": "2.5.5",
@@ -652,7 +710,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#concurrent-input-mechanisms"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#concurrent-input-mechanisms",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n  <p>Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.</p>   \t\t\t\t\t\n",
                             "id": "2.5.6",
@@ -676,7 +735,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-page"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-page",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The default human language of each Web page can be programmatically determined.\n   </p>\n   \n",
                             "id": "3.1.1",
@@ -686,7 +746,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words\n      or phrases that have become part of the vernacular of the immediately surrounding\n      text.\n   </p>\n   \n",
                             "id": "3.1.2",
@@ -696,7 +757,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#unusual-words"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#unusual-words",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon.\n   </p>\n   \n",
                             "id": "3.1.3",
@@ -706,7 +768,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#abbreviations"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#abbreviations",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism for identifying the expanded form or meaning of abbreviations is available.\n   </p>\n   \n",
                             "id": "3.1.4",
@@ -716,7 +779,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#reading-level"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#reading-level",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower\n      secondary education level, is available.\n   </p>\n   \n",
                             "id": "3.1.5",
@@ -726,7 +790,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/pronunciation.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pronunciation"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#pronunciation",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/pronunciation.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>A mechanism is available for identifying specific pronunciation of words where meaning of the\n      words, in context, is ambiguous without knowing the pronunciation.\n   </p>\n   \n",
                             "id": "3.1.6",
@@ -743,7 +808,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#on-focus"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#on-focus",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>When any user interface component receives focus, it does not initiate a change of context.\n   </p>\n   \n",
                             "id": "3.2.1",
@@ -753,7 +819,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/on-input.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#on-input"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#on-input",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/on-input.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.\n   </p>\n   \n",
                             "id": "3.2.2",
@@ -763,7 +830,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.\n   </p>\n   \n",
                             "id": "3.2.3",
@@ -773,7 +841,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Components that have the same functionality within a set of Web pages are identified consistently.\n   </p>\n   \n",
                             "id": "3.2.4",
@@ -783,7 +852,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/change-on-request.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#change-on-request"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#change-on-request",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/change-on-request.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Changes of context are initiated only by user request or a mechanism is available to turn off such changes.\n   </p>\n   \n",
                             "id": "3.2.5",
@@ -800,7 +870,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-identification"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-identification",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If an input error is automatically detected, the item that is in error is identified and the error\n      is described to the user in text.\n   </p>\n   \n",
                             "id": "3.3.1",
@@ -810,7 +881,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Labels or instructions are provided when content requires user input.\n   </p>\n   \n",
                             "id": "3.3.2",
@@ -820,7 +892,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>If an input error is automatically detected and suggestions for correction are known, then the suggestions\n      are provided to the user, unless it would jeopardize the security or purpose of the\n      content.\n   </p>\n   \n",
                             "id": "3.3.3",
@@ -830,7 +903,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of\n      the following is true:\n   </p>\n\n   <dl>\n     <dt>Reversible</dt><dd>Submissions are reversible.</dd>\n     <dt>Checked</dt><dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>\n     <dt>Confirmed</dt><dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>\n  </dl>\n  \n",
                             "id": "3.3.4",
@@ -840,7 +914,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/help.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#help"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#help",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/help.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>Context-sensitive help is available.\n   </p>\n   \n",
                             "id": "3.3.5",
@@ -850,7 +925,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-all.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-all"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-all",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-all.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For Web pages that require the user to submit information, at least one of the following is true:\n   </p>\n   \n   <dl>\n     <dt>Reversible</dt><dd>Submissions are reversible.</dd>\n     <dt>Checked</dt><dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>\n     <dt>Confirmed</dt><dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>\n  </dl>\n\n",
                             "id": "3.3.6",
@@ -874,7 +950,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/parsing.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#parsing"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#parsing",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/parsing.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>In content implemented using markup languages, elements have complete start and end\n      tags, elements are nested according to their specifications, elements do not contain\n      duplicate attributes, and any IDs are unique, except where the specifications allow\n      these features.\n   </p>\n   \n   \n   \n",
                             "id": "4.1.1",
@@ -884,7 +961,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#name-role-value"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#name-role-value",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html#examples"
                             },
                             "contentMarkup": "\n   \n   \n   \n   \n   \n   <p>For all user interface components (including but not limited to: form elements, links and components generated by scripts),\n      the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.\n   </p>\n   \n   \n   \n",
                             "id": "4.1.2",
@@ -894,7 +972,8 @@
                         {
                             "links": {
                                 "understand": "https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html",
-                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#status-messages"
+                                "meet": "https://www.w3.org/WAI/WCAG21/quickref/#status-messages",
+                                "examples": "https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html#examples"
                             },
                             "contentMarkup": "\n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   \n   \t\t\t\t\t\n   <p>In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.</p>\n   \t\t\t\t\n",
                             "id": "4.1.3",
