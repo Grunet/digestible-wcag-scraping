@@ -30,7 +30,7 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
     _value: any,
   ) {
     if (this?.key?.includes("links")) {
-      const linksObj = this.node;
+      const linksObj = this.node as { [key: string]: string };
 
       const modifiedKvPairs = Object.entries(linksObj);
       modifiedKvPairs.forEach(function (kvPair) {
@@ -48,6 +48,13 @@ function __formatScrapedData(scrapedData: IScrapedData): any {
       modifiedLinksObj["examples"] = `${
         modifiedLinksObj["understand"]
       }#examples`;
+
+      const meetURL = new URL(modifiedLinksObj["meet"]);
+      meetURL.searchParams.append(
+        "showtechniques",
+        this.parent?.node["id"].replace(/\./g, ""),
+      );
+      modifiedLinksObj["meet"] = meetURL.toString();
 
       this.update(modifiedLinksObj);
     }
