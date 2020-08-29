@@ -1,3 +1,32 @@
+interface IScrapedData {
+  principles: IPrincipleData[];
+}
+
+interface IPrincipleData extends IHeadingText {
+  paraText: string;
+  guidelines: IGuidelineData[];
+}
+
+interface IGuidelineData extends IHeadingText {
+  paraText: string;
+  successCriteria: ISuccessCriterionData[];
+}
+
+interface ISuccessCriterionData extends IHeadingText {
+  levelText: string;
+  links: ILinkUrls;
+  contentMarkup: string //should be a string of valid html
+  ;
+}
+
+interface ILinkUrls {
+  [key: string]: string;
+}
+
+interface IHeadingText {
+  headingText: string;
+}
+
 import { cheerio } from "../deps.ts";
 
 async function getScrapedData(): Promise<IScrapedData> {
@@ -83,35 +112,6 @@ async function getScrapedData(): Promise<IScrapedData> {
   );
 
   return scrapedData;
-}
-
-interface IScrapedData {
-  principles: IPrincipleData[];
-}
-
-interface IPrincipleData extends IHeadingText {
-  paraText: string;
-  guidelines: IGuidelineData[];
-}
-
-interface IGuidelineData extends IHeadingText {
-  paraText: string;
-  successCriteria: ISuccessCriterionData[];
-}
-
-interface ISuccessCriterionData extends IHeadingText {
-  levelText: string;
-  links: ILinkUrls;
-  contentMarkup: string //should be a string of valid html
-  ;
-}
-
-interface ILinkUrls {
-  [key: string]: string;
-}
-
-interface IHeadingText {
-  headingText: string;
 }
 
 export { getScrapedData, IScrapedData };
