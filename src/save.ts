@@ -1,12 +1,9 @@
-async function __saveFormattedData(formattedData: any) {
+async function saveFormattedData(path: string, formattedData: any) {
   const content = JSON.stringify(formattedData, null, 4);
 
-  Deno.mkdir("../dist", { recursive: true });
-  await Deno.writeTextFile("../dist/wcag22.json", content);
-}
+  await Deno.mkdir(path, { recursive: true });
 
-async function saveFormattedData(formattedData: any) {
-  await __saveFormattedData(formattedData);
+  await Deno.writeTextFile(`${path}/wcag22.json`, content);
 }
 
 export { saveFormattedData };
