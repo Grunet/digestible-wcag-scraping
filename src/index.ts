@@ -1,4 +1,4 @@
-import { getScrapedData } from "./scrape.ts";
+import { getScrapedData } from "./scraping/mainDocument.ts";
 import { formatScrapedData } from "./format.ts";
 import { saveFormattedData } from "./save.ts";
 
