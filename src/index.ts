@@ -1,5 +1,5 @@
-import { getScrapedData } from "./scraping/mainDocument.ts";
-import { formatScrapedData } from "./format.ts";
+import { getScrapedData } from "./mainDocument/scrape.ts";
+import { formatScrapedData } from "./mainDocument/format.ts";
 import { saveFormattedData } from "./save.ts";
 
 async function createJsonOutput(pathToSaveDir: string) {
