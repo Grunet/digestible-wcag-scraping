@@ -11,6 +11,25 @@
         "cwd": "${cwd}/scripts/"
       },
       "command": "deno run --allow-read=.,../dist/ --allow-write=../dist/ ./clean.ts"
+    },
+    {
+      "label": "generateOutput",
+      "group": "build",
+      "type": "shell",
+      "options": {
+        "cwd": "${cwd}/scripts/"
+      },
+      "command": "deno run --allow-net=www.w3.org --allow-write=..,../dist generateOutput.ts"
+    },
+    {
+      "label": "Run all scripts",
+      "group": "build",
+      "type": "shell",
+      "options": {
+        "cwd": "${cwd}/scripts/"
+      },
+      "dependsOn": ["clean", "generateOutput"],
+      "dependsOrder": "sequence"
     }
   ]
 }
