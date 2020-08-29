@@ -2,7 +2,7 @@
 // @deno-types="https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/deab75bde42b5a82aeb951f5a2edaa09922853f4/types/cheerio/index.d.ts"
 import cheerio from "https://dev.jspm.io/cheerio@1.0.0-rc.3";
 
-async function __getScrapedData(): Promise<IScrapedData> {
+async function getScrapedData(): Promise<IScrapedData> {
   const res = await fetch("https://www.w3.org/TR/2020/WD-WCAG22-20200227/");
 
   const resBody = new TextDecoder("utf-8").decode(
@@ -114,10 +114,6 @@ interface ILinkUrls {
 
 interface IHeadingText {
   headingText: string;
-}
-
-async function getScrapedData(): Promise<IScrapedData> {
-  return await __getScrapedData();
 }
 
 export { getScrapedData, IScrapedData };
