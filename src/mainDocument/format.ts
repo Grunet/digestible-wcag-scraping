@@ -1,8 +1,5 @@
+import { traverse } from "../deps.ts";
 import { IScrapedData } from "./scrape.ts";
-
-// This should probably point to a pinned version of the typings
-// @deno-types="https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/traverse/index.d.ts"
-import traverse from "https://dev.jspm.io/traverse@0.6.6";
 
 function formatScrapedData(scrapedData: IScrapedData): any {
   const formattedData = JSON.parse(JSON.stringify(scrapedData));
