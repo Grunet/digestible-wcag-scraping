@@ -11,6 +11,7 @@ interface IExampleData {
 }
 
 import { cheerio } from "../deps.ts";
+var $: CheerioStatic;
 
 async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   const { url } = params;
@@ -21,9 +22,9 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     new Uint8Array(await res.arrayBuffer()),
   );
 
-  let $ = cheerio.load(resBody);
+  $ = cheerio.load(resBody);
 
-  const examplesSection = $("#examples");
+  const examplesSection: Cheerio = $("#examples");
   if (examplesSection.length == 0) {
     //Some of the pages don't have an Examples section yet
     return {};
@@ -33,6 +34,17 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     );
   }
 
+  const extractedContent: string[] = [];
+  extractedContent.push(...__extractParagraphContent(examplesSection));
+
+  const examplesData = extractedContent.map((html) => ({ content: html }));
+
+  return {
+    examples: examplesData,
+  };
+}
+
+function __extractParagraphContent(examplesSection: Cheerio): string[] {
   const extractedContentWithDuplicates: string[] = examplesSection.find("p")
     .map(
       function (index: number, element: CheerioElement) {
@@ -52,11 +64,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     ...new Set(extractedContentWithDuplicates),
   ];
 
-  const examplesData = extractedContent.map((html) => ({ content: html }));
-
-  return {
-    examples: examplesData,
-  };
+  return extractedContent;
 }
 
 export { IParameters, getScrapedData, IScrapedData };
