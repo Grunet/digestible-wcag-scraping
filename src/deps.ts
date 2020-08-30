@@ -7,3 +7,8 @@ export { cheerio };
 // @deno-types="https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/traverse/index.d.ts"
 import traverse from "https://dev.jspm.io/traverse@0.6.6";
 export { traverse };
+
+function deepCopyObj(obj: any) {
+  return JSON.parse(JSON.stringify(obj)); //This doesn't take into account all subtleties. Replace with a library as needed.
+}
+export { deepCopyObj };

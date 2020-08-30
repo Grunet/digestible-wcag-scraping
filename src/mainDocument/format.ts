@@ -1,8 +1,8 @@
-import { traverse } from "../deps.ts";
+import { traverse, deepCopyObj } from "../deps.ts";
 import { IScrapedData } from "./scrape.ts";
 
 function formatScrapedData(scrapedData: IScrapedData): any {
-  const formattedData = JSON.parse(JSON.stringify(scrapedData));
+  const formattedData = deepCopyObj(scrapedData);
 
   traverse(formattedData).forEach(function (
     this: traverse.TraverseContext,
