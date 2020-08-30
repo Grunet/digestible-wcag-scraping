@@ -1,9 +1,38 @@
 import { traverse, deepCopyObj } from "./deps.ts";
-import { getData as getDataFromUnderstandingPage } from "./understandingPages/output.ts";
+import {
+  getData as getDataFromUnderstandingPage,
+  IFormattedData as IUnderstandingPageData,
+} from "./understandingPages/output.ts";
 
 async function appendUnderstandingPageData(
   mainDocumentData: any,
 ): Promise<any> {
+  const understandingDataById = await __getDataFromAllUnderstandingPages(
+    mainDocumentData,
+  );
+  const combinedData = deepCopyObj(mainDocumentData);
+
+  traverse(combinedData).forEach(function (
+    this: traverse.TraverseContext,
+    _value: any,
+  ) {
+    if (this?.node?.hasOwnProperty("id")) {
+      const id = this.node["id"];
+
+      if (id in understandingDataById) {
+        const { examples } = understandingDataById[id];
+
+        this.node["examples"] = examples ?? [];
+      }
+    }
+  });
+
+  return combinedData;
+}
+
+async function __getDataFromAllUnderstandingPages(
+  mainDocumentData: any,
+): Promise<{ [key: string]: IUnderstandingPageData }> {
   const understandingDataPromises: Promise<any>[] = [];
 
   traverse(mainDocumentData).forEach(function (
@@ -30,24 +59,7 @@ async function appendUnderstandingPageData(
     await Promise.all(understandingDataPromises),
   );
 
-  const combinedData = deepCopyObj(mainDocumentData);
-
-  traverse(combinedData).forEach(function (
-    this: traverse.TraverseContext,
-    _value: any,
-  ) {
-    if (this?.node?.hasOwnProperty("id")) {
-      const id = this.node["id"];
-
-      if (id in understandingDataById) {
-        const { examples } = understandingDataById[id];
-
-        this.node["examples"] = examples ?? [];
-      }
-    }
-  });
-
-  return combinedData;
+  return understandingDataById;
 }
 
 export { appendUnderstandingPageData };

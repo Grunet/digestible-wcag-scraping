@@ -4,4 +4,4 @@ async function getData(params: IParameters): Promise<IScrapedData> {
   return await getScrapedData(params);
 }
 
-export { getData };
+export { getData, IScrapedData as IFormattedData };
