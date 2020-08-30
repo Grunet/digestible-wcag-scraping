@@ -35,7 +35,22 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   }
 
   const extractedContent: string[] = [];
-  extractedContent.push(...__extractParagraphContent(examplesSection));
+  if (extractedContent.length === 0) {
+    //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html#examples
+    extractedContent.push(...__extractContentWithSections(examplesSection));
+  }
+
+  if (extractedContent.length === 0) {
+    //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/reflow.html#examples
+    extractedContent.push(...__extractContentWithParagraphs(examplesSection));
+  }
+
+  if (extractedContent.length === 0) {
+    //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html#examples
+    extractedContent.push(
+      ...__extractContentWithoutParagraphs(examplesSection),
+    );
+  }
 
   const examplesData = extractedContent.map((html) => ({ content: html }));
 
@@ -44,7 +59,18 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   };
 }
 
-function __extractParagraphContent(examplesSection: Cheerio): string[] {
+function __extractContentWithSections(examplesSection: Cheerio): string[] {
+  const extractedContent: string[] = examplesSection.find("section")
+    .map(
+      function (index: number, sectionElement: CheerioElement) {
+        return $(sectionElement).html();
+      },
+    ).get();
+
+  return extractedContent;
+}
+
+function __extractContentWithParagraphs(examplesSection: Cheerio): string[] {
   const extractedContentWithDuplicates: string[] = examplesSection.find("p")
     .map(
       function (index: number, element: CheerioElement) {
@@ -62,7 +88,22 @@ function __extractParagraphContent(examplesSection: Cheerio): string[] {
 
   const extractedContent: string[] = [
     ...new Set(extractedContentWithDuplicates),
-  ];
+  ]; //Removing output coming from the same parent element mulitple times
+
+  return extractedContent;
+}
+
+function __extractContentWithoutParagraphs(examplesSection: Cheerio): string[] {
+  const extractedContent: string[] = examplesSection.find("li")
+    .filter(
+      function (index: number, listElement: CheerioElement) {
+        return ($(listElement).find("p").length === 0);
+      },
+    ).map(
+      function (index: number, listElement: CheerioElement) {
+        return $(listElement).html();
+      },
+    ).get();
 
   return extractedContent;
 }
