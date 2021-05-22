@@ -29,7 +29,7 @@ interface IHeadingText {
 import { cheerio } from "../deps.ts";
 
 async function getScrapedData(): Promise<IScrapedData> {
-  const res = await fetch("https://www.w3.org/TR/2020/WD-WCAG22-20200227/");
+  const res = await fetch("https://www.w3.org/TR/2021/WD-WCAG22-20210521/");
 
   const resBody = new TextDecoder("utf-8").decode(
     new Uint8Array(await res.arrayBuffer())
