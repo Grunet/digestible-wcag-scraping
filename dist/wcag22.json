@@ -1357,7 +1357,7 @@
                             "level": "AAA",
                             "examples": [
                                 {
-                                    "content": ""
+                                    "content": "<strong>Example 1: Buttons</strong><br>\n                  \t\t      Three buttons are on-screen and the touch target area of each button is 44\n                  by 44 CSS pixels.\n               "
                                 }
                             ]
                         },

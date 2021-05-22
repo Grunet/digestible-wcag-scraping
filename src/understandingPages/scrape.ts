@@ -65,7 +65,8 @@ function __extractContentWithSections(examplesSection: Cheerio): string[] {
     .map(function (index: number, sectionElement: CheerioElement) {
       return $(sectionElement).html();
     })
-    .get();
+    .get()
+    .filter((content: string) => content !== ""); //Workaround for 2.5.5 currently containing an empty section element inside the examples section https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#examples
 
   return extractedContent;
 }
