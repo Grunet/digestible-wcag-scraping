@@ -34,6 +34,8 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     );
   }
 
+  $(examplesSection).find(".note").remove(); //Matching the simplification made in the main page scraping
+
   const extractedContent: string[] = [];
   if (extractedContent.length === 0) {
     //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html#examples
