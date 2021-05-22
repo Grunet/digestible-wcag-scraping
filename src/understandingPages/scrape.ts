@@ -19,7 +19,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   const res = await fetch(url);
 
   const resBody = new TextDecoder("utf-8").decode(
-    new Uint8Array(await res.arrayBuffer()),
+    new Uint8Array(await res.arrayBuffer())
   );
 
   $ = cheerio.load(resBody);
@@ -30,7 +30,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     return {};
   } else if (examplesSection.length > 1) {
     throw new Error(
-      `There should probably only be at most 1 "Examples" section per understanding page.`,
+      `There should probably only be at most 1 "Examples" section per understanding page.`
     );
   }
 
@@ -48,7 +48,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   if (extractedContent.length === 0) {
     //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html#examples
     extractedContent.push(
-      ...__extractContentWithoutParagraphs(examplesSection),
+      ...__extractContentWithoutParagraphs(examplesSection)
     );
   }
 
@@ -60,31 +60,29 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
 }
 
 function __extractContentWithSections(examplesSection: Cheerio): string[] {
-  const extractedContent: string[] = examplesSection.find("section")
-    .map(
-      function (index: number, sectionElement: CheerioElement) {
-        return $(sectionElement).html();
-      },
-    ).get();
+  const extractedContent: string[] = examplesSection
+    .find("section")
+    .map(function (index: number, sectionElement: CheerioElement) {
+      return $(sectionElement).html();
+    })
+    .get();
 
   return extractedContent;
 }
 
 function __extractContentWithParagraphs(examplesSection: Cheerio): string[] {
-  const extractedContentWithDuplicates: string[] = examplesSection.find("p")
-    .map(
-      function (index: number, element: CheerioElement) {
-        return $(element).parent();
-      },
-    ).map(
-      function (index: number, parent: CheerioElement) {
-        return $(parent).remove(":not(p)");
-      },
-    ).map(
-      function (index: number, modifiedParent: CheerioElement) {
-        return $(modifiedParent).html();
-      },
-    ).get();
+  const extractedContentWithDuplicates: string[] = examplesSection
+    .find("p")
+    .map(function (index: number, element: CheerioElement) {
+      return $(element).parent();
+    })
+    .map(function (index: number, parent: CheerioElement) {
+      return $(parent).remove(":not(p)");
+    })
+    .map(function (index: number, modifiedParent: CheerioElement) {
+      return $(modifiedParent).html();
+    })
+    .get();
 
   const extractedContent: string[] = [
     ...new Set(extractedContentWithDuplicates),
@@ -94,18 +92,18 @@ function __extractContentWithParagraphs(examplesSection: Cheerio): string[] {
 }
 
 function __extractContentWithoutParagraphs(examplesSection: Cheerio): string[] {
-  const extractedContent: string[] = examplesSection.find("li")
-    .filter(
-      function (index: number, listElement: CheerioElement) {
-        return ($(listElement).find("p").length === 0);
-      },
-    ).map(
-      function (index: number, listElement: CheerioElement) {
-        return $(listElement).html();
-      },
-    ).get();
+  const extractedContent: string[] = examplesSection
+    .find("li")
+    .filter(function (index: number, listElement: CheerioElement) {
+      return $(listElement).find("p").length === 0;
+    })
+    .map(function (index: number, listElement: CheerioElement) {
+      return $(listElement).html();
+    })
+    .get();
 
   return extractedContent;
 }
 
-export { IParameters, getScrapedData, IScrapedData };
+export { getScrapedData };
+export type { IParameters, IScrapedData };

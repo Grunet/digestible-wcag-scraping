@@ -15,8 +15,7 @@ interface IGuidelineData extends IHeadingText {
 interface ISuccessCriterionData extends IHeadingText {
   levelText: string;
   links: ILinkUrls;
-  contentMarkup: string //should be a string of valid html
-  ;
+  contentMarkup: string; //should be a string of valid html
 }
 
 interface ILinkUrls {
@@ -33,7 +32,7 @@ async function getScrapedData(): Promise<IScrapedData> {
   const res = await fetch("https://www.w3.org/TR/2020/WD-WCAG22-20200227/");
 
   const resBody = new TextDecoder("utf-8").decode(
-    new Uint8Array(await res.arrayBuffer()),
+    new Uint8Array(await res.arrayBuffer())
   );
 
   let $ = cheerio.load(resBody);
@@ -62,9 +61,7 @@ async function getScrapedData(): Promise<IScrapedData> {
 
           const guidelineSectionParagraph = $(guidelineSection).find("p")[0];
 
-          scrapedData.principles[principleIndex].guidelines[
-            guidelineIndex
-          ] = {
+          scrapedData.principles[principleIndex].guidelines[guidelineIndex] = {
             headingText: $(guidelineSectionHeading).text(),
             paraText: $(guidelineSectionParagraph).text(),
             successCriteria: [],
@@ -86,7 +83,7 @@ async function getScrapedData(): Promise<IScrapedData> {
               successCritLinks.each(
                 (linkIndex: number, linkEl: CheerioElement) => {
                   linksObj[$(linkEl).text()] = $(linkEl).attr("href");
-                },
+                }
               );
 
               //Destructive actions to just leave the main content
@@ -104,14 +101,15 @@ async function getScrapedData(): Promise<IScrapedData> {
                 links: linksObj,
                 contentMarkup: $(successCrit).html(),
               };
-            },
+            }
           );
-        },
+        }
       );
-    },
+    }
   );
 
   return scrapedData;
 }
 
-export { getScrapedData, IScrapedData };
+export { getScrapedData };
+export type { IScrapedData };
