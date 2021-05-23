@@ -1,4 +1,4 @@
-import { traverse, deepCopyObj } from "./deps.ts";
+import { deepCopyObj, traverse } from "./deps.ts";
 import {
   getData as getDataFromUnderstandingPage,
   IFormattedData as IUnderstandingPageData,
@@ -45,9 +45,9 @@ async function __getDataFromAllUnderstandingPages(
 
       understandingDataPromises.push(
         (async function () {
-          const understandingData = await getDataFromUnderstandingPage(
-            { url: understandPageURL },
-          );
+          const understandingData = await getDataFromUnderstandingPage({
+            url: new URL(understandPageURL),
+          });
 
           return [successCritId, understandingData];
         })(),

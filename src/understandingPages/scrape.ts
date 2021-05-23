@@ -1,5 +1,5 @@
 interface IParameters {
-  url: string;
+  url: URL;
 }
 
 interface IScrapedData {
@@ -16,10 +16,10 @@ var $: CheerioStatic;
 async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   const { url } = params;
 
-  const res = await fetch(url);
+  const res = await fetch(url.href);
 
   const resBody = new TextDecoder("utf-8").decode(
-    new Uint8Array(await res.arrayBuffer())
+    new Uint8Array(await res.arrayBuffer()),
   );
 
   $ = cheerio.load(resBody);
@@ -30,7 +30,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     return {};
   } else if (examplesSection.length > 1) {
     throw new Error(
-      `There should probably only be at most 1 "Examples" section per understanding page.`
+      `There should probably only be at most 1 "Examples" section per understanding page.`,
     );
   }
 
@@ -50,7 +50,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   if (extractedContent.length === 0) {
     //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html#examples
     extractedContent.push(
-      ...__extractContentWithoutParagraphs(examplesSection)
+      ...__extractContentWithoutParagraphs(examplesSection),
     );
   }
 
