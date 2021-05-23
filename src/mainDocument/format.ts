@@ -1,4 +1,4 @@
-import { traverse, deepCopyObj } from "../deps.ts";
+import { deepCopyObj, traverse } from "../deps.ts";
 import { IScrapedData } from "./scrape.ts";
 
 function formatScrapedData(scrapedData: IScrapedData): any {

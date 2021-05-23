@@ -32,7 +32,7 @@ async function getScrapedData(): Promise<IScrapedData> {
   const res = await fetch("https://www.w3.org/TR/2021/WD-WCAG22-20210521/");
 
   const resBody = new TextDecoder("utf-8").decode(
-    new Uint8Array(await res.arrayBuffer())
+    new Uint8Array(await res.arrayBuffer()),
   );
 
   let $ = cheerio.load(resBody);
@@ -83,7 +83,7 @@ async function getScrapedData(): Promise<IScrapedData> {
               successCritLinks.each(
                 (linkIndex: number, linkEl: CheerioElement) => {
                   linksObj[$(linkEl).text()] = $(linkEl).attr("href");
-                }
+                },
               );
 
               //Destructive actions to just leave the main content
@@ -101,11 +101,11 @@ async function getScrapedData(): Promise<IScrapedData> {
                 links: linksObj,
                 contentMarkup: $(successCrit).html(),
               };
-            }
+            },
           );
-        }
+        },
       );
-    }
+    },
   );
 
   return scrapedData;
