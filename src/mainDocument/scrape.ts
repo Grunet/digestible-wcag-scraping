@@ -29,10 +29,10 @@ interface IHeadingText {
 import { cheerio } from "../deps.ts";
 
 async function getScrapedData(): Promise<IScrapedData> {
-  const res = await fetch("https://www.w3.org/TR/2021/WD-WCAG22-20210521/");
+  const res = await fetch("https://www.w3.org/TR/WCAG22/");
 
   const resBody = new TextDecoder("utf-8").decode(
-    new Uint8Array(await res.arrayBuffer()),
+    new Uint8Array(await res.arrayBuffer())
   );
 
   let $ = cheerio.load(resBody);
@@ -54,7 +54,9 @@ async function getScrapedData(): Promise<IScrapedData> {
         guidelines: [],
       };
 
-      const guidelineSections = $(principleSection).find(".guideline");
+      const guidelineSections = $(principleSection).find(
+        ".principle > .guideline"
+      );
       guidelineSections.each(
         (guidelineIndex: number, guidelineSection: CheerioElement) => {
           const guidelineSectionHeading = $(guidelineSection).find("h3")[0];
@@ -67,7 +69,9 @@ async function getScrapedData(): Promise<IScrapedData> {
             successCriteria: [],
           };
 
-          const successCrits = $(guidelineSection).find(".sc");
+          const successCrits = $(guidelineSection).find(
+            ".guideline > .guideline"
+          );
           successCrits.each(
             (successCritIndex: number, successCrit: CheerioElement) => {
               const successCritHeading = $(successCrit).find("h4")[0];
@@ -83,7 +87,7 @@ async function getScrapedData(): Promise<IScrapedData> {
               successCritLinks.each(
                 (linkIndex: number, linkEl: CheerioElement) => {
                   linksObj[$(linkEl).text()] = $(linkEl).attr("href");
-                },
+                }
               );
 
               //Destructive actions to just leave the main content
@@ -92,6 +96,7 @@ async function getScrapedData(): Promise<IScrapedData> {
               $(successCritLinksWrapper).remove();
 
               $(successCrit).find(".note").remove();
+              $(successCrit).find(".header-wrapper").remove();
 
               scrapedData.principles[principleIndex].guidelines[
                 guidelineIndex
@@ -101,11 +106,11 @@ async function getScrapedData(): Promise<IScrapedData> {
                 links: linksObj,
                 contentMarkup: $(successCrit).html(),
               };
-            },
+            }
           );
-        },
+        }
       );
-    },
+    }
   );
 
   return scrapedData;

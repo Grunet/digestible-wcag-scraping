@@ -19,7 +19,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   const res = await fetch(url.href);
 
   const resBody = new TextDecoder("utf-8").decode(
-    new Uint8Array(await res.arrayBuffer()),
+    new Uint8Array(await res.arrayBuffer())
   );
 
   $ = cheerio.load(resBody);
@@ -30,7 +30,7 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
     return {};
   } else if (examplesSection.length > 1) {
     throw new Error(
-      `There should probably only be at most 1 "Examples" section per understanding page.`,
+      `There should probably only be at most 1 "Examples" section per understanding page.`
     );
   }
 
@@ -50,7 +50,14 @@ async function getScrapedData(params: IParameters): Promise<IScrapedData> {
   if (extractedContent.length === 0) {
     //This covers cases like https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html#examples
     extractedContent.push(
-      ...__extractContentWithoutParagraphs(examplesSection),
+      ...__extractContentWithoutParagraphs(examplesSection)
+    );
+  }
+
+  if (extractedContent.length === 0) {
+    //This covers cases like https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html#examples
+    extractedContent.push(
+      ...__extractContentWithDefinitionList(examplesSection)
     );
   }
 
@@ -102,6 +109,19 @@ function __extractContentWithoutParagraphs(examplesSection: Cheerio): string[] {
     })
     .map(function (index: number, listElement: CheerioElement) {
       return $(listElement).html();
+    })
+    .get();
+
+  return extractedContent;
+}
+
+function __extractContentWithDefinitionList(
+  examplesSection: Cheerio
+): string[] {
+  const extractedContent: string[] = examplesSection
+    .find("dd")
+    .map(function (index: number, dlElement: CheerioElement) {
+      return $(dlElement).html();
     })
     .get();
 
