@@ -441,13 +441,13 @@
                             "level": "AA",
                             "examples": [
                                 {
-                                    "content": "\n            A user with vision impairments increases the text size on a Web page in a browser\n            from 1 em to 1.2 ems. While the user could not read the text at the smaller size,\n            they can read the larger text. All the information on the page is still displayed when\n            the larger font is used for the text.\n            \n         "
+                                    "content": "\n            A user with vision impairments increases the text size on a Web page in a browser\n            from 1 em to 1.2 ems. While the user could not read the text at the smaller size,\n            they can read the larger text. All the information on the page is still displayed when\n            the larger font is used for the text.\n         "
                                 },
                                 {
-                                    "content": "\n            A Web page contains a control for changing the scale of the page. Selecting different\n            settings changes the layout of the page to use the best design for that scale.\n            \n         "
+                                    "content": "\n            A Web page contains a control for changing the scale of the page. Selecting different\n            settings changes the layout of the page to use the best design for that scale.\n         "
                                 },
                                 {
-                                    "content": "\n            Users with a zoom function in their user agent change the scale of the content.\n            All the content scales uniformly, and the user agent provides scroll bars, if necessary.\n            \n         "
+                                    "content": "\n            A user changes the scale of the content with the browser&apos;s full-page zoom function.\n            All the content scales uniformly, and the browser provides scroll bars, if necessary.\n         "
                                 }
                             ]
                         },
@@ -530,7 +530,7 @@
                                     "content": "Figure 1<p>The following images show examples of single-spacing, space-and-a-half and double-spaced text in a paragraph.</p>"
                                 },
                                 {
-                                    "content": "\n      <h2>Examples</h2>\n      \n      <figure id=\"figure-text-cut\">\n        \n        <img src=\"https://www.w3.org/WAI/WCAG22/Understanding/img/single-space.gif\" alt=\"Example of single-spaced text. (no space between each line of text)\">\n        <img src=\"https://www.w3.org/WAI/WCAG22/Understanding/img/space-and-a-half.gif\" alt=\"Example of space-and-a-half text. (a space equal to half the height of a line of text line)\">\n        <img src=\"https://www.w3.org/WAI/WCAG22/Understanding/img/double-space.gif\" alt=\"Example of double-spaced text. (a space equal to the height of a line of text between each line)\">\n      </figure>\n\n      <p>Examples of glyphs include  &quot;A&quot;, &quot;&#x2192;&quot; (an arrow symbol), and &quot;&#x3055;&quot; (a Japanese character).</p>\n      \n   "
+                                    "content": "\n      <h2>Examples</h2>\n      \n      <figure id=\"figure-text-cut\">\n        \n        <img src=\"https://www.w3.org/WAI/WCAG22/Understanding/img/single-space.gif\" alt=\"Example of single-spaced text. (no space between each line of text)\">\n        <img src=\"https://www.w3.org/WAI/WCAG22/Understanding/img/space-and-a-half.gif\" alt=\"Example of space-and-a-half text. (a space equal to half the height of a line of text line)\">\n        <img src=\"https://www.w3.org/WAI/WCAG22/Understanding/img/double-space.gif\" alt=\"Example of double-spaced text. (a space equal to the height of a line of text between each line)\">\n      </figure>\n\n      <p>Examples of glyphs include  &quot;A&quot;, &quot;&#x2192;&quot; (an arrow symbol), and &quot;&#x3055;&quot; (a Japanese character).</p>\n   "
                                 }
                             ]
                         },
@@ -732,10 +732,10 @@
                             "level": "A",
                             "examples": [
                                 {
-                                    "content": "\n\t\t\t       \n      <h3>Disable Shortcuts</h3>\n<p>A mechanism is provided to allow users to disable character-key shortcuts. The character key shortcuts are not the only way to carry out these commands. A speech user disables the shortcuts and can prevent words that are picked up by the microphone from triggering single-key shortcuts.</p>\n\t\t\t"
+                                    "content": "\n\t\t\t\t<h3>Disable Shortcuts</h3>\n\t\t\t\t<p>A mechanism is provided to allow users to disable character-key shortcuts. The character key shortcuts are not the only way to carry out these commands. A speech user disables the shortcuts and can prevent words that are picked up by the microphone from triggering single-key shortcuts.</p>\n\t\t\t"
                                 },
                                 {
-                                    "content": "\n\n<h3>Alternate Control</h3>\n\n<p>Keyboard-only users are in a long issues thread. While reading the thread they accidentally hit the S key, which moves focus to the search bar at the top of the document. This causes them to lose their place and train of thought. However, a mechanism is provided to allow users to change character-key shortcuts. They change the shortcut to include another key so they can avoid future interruptions.</p>\n\t\t\t"
+                                    "content": "\n        <h3>Alternate Control</h3>\n        <p>Keyboard-only users are in a long issues thread. While reading the thread they accidentally hit the S key, which moves focus to the search bar at the top of the document. This causes them to lose their place and train of thought. However, a mechanism is provided to allow users to change character-key shortcuts. They change the shortcut to include another key so they can avoid future interruptions.</p>\n\t\t\t"
                                 }
                             ]
                         }
@@ -1004,7 +1004,7 @@
                             "level": "A",
                             "examples": [
                                 {
-                                    "content": "\n            <p>The title of <a href=\"./\">Understanding WCAG 2.1 </a>\n               is &quot;Understanding WCAG 2.1.&quot;</p>\n            <ul>\n               <li>The introduction page has the title &quot;Introduction to Understanding WCAG 2.0.&quot;</li>\n               <li>Major sections of the document are pages titled &quot;Understanding Guideline X&quot; and &quot;Understanding\n                  Success Criterion X.&quot; \n               </li>\n               <li>Appendix A has the title &quot;Glossary.&quot;</li>\n               <li>Appendix B has the title &quot;Acknowledgements.&quot;</li>\n               <li>Appendix C has the title &quot;References.&quot;</li>\n            </ul>\n         "
+                                    "content": "\n            <p>The title of <a href=\"./\">Understanding WCAG 2.2</a> is &quot;Understanding WCAG 2.2&quot;.</p>\n            <ul>\n               <li>The <a href=\"../Understanding/intro\">Introduction to Understanding WCAG</a> page has the title &quot;Introduction to Understanding WCAG&quot;.</li>\n               <li>Major sections of the document collection are pages titled &quot;Understanding Guideline X&quot; and &quot;Understanding Success Criterion X.&quot;</li>\n               <li>Appendix A has the title &quot;Glossary.&quot;</li>\n               <li>Appendix B has the title &quot;Acknowledgements.&quot;</li>\n               <li>Appendix C has the title &quot;References.&quot;</li>\n            </ul>\n         "
                                 }
                             ]
                         },
@@ -1363,25 +1363,25 @@
                             "level": "AAA",
                             "examples": [
                                 {
-                                    "content": "<strong>Example 1: Buttons</strong><br> Three buttons are on-screen and the touch target area of each button is 44 by 44 CSS pixels."
+                                    "content": "Three buttons are on-screen and the touch target area of each button is 44 by 44 CSS pixels."
                                 },
                                 {
-                                    "content": "<strong>Example 2: Equivalent target</strong><br> Multiple targets are provided on the page that perform the same function. One of the targets is 44 by 44 CSS pixels. The other targets do not have a minimum touch target of 44 by 44 CSS pixels."
+                                    "content": "Multiple targets are provided on the page that perform the same function. One of the targets is 44 by 44 CSS pixels. The other targets do not have a minimum touch target of 44 by 44 CSS pixels."
                                 },
                                 {
-                                    "content": "<strong>Example 3: Anchor Link</strong><br> The target is an in-page link and the target is less than 44 by 44 CSS pixels."
+                                    "content": "The target is an in-page link and the target is less than 44 by 44 CSS pixels."
                                 },
                                 {
-                                    "content": "<strong>Example 4: Text Link in a paragraph</strong><br> Links within a paragraph of text have varying touch target dimensions. Links within\n           paragraphs of text do no need to meet the 44 by 44 CSS pixels requirements."
+                                    "content": "Links within a paragraph of text have varying touch target dimensions. Links within\n           paragraphs of text do no need to meet the 44 by 44 CSS pixels requirements."
                                 },
                                 {
-                                    "content": "<strong>Example 5: Text Link in a sentence</strong><br> A text link that is in a sentence is excluded and does not need to meet the 44 by 44 CSS pixel requirement. If the text link is the full sentence, then the text link target touch area does need to meet the 44 by 44 CSS pixels."
+                                    "content": "A text link that is in a sentence is excluded and does not need to meet the 44 by 44 CSS pixel requirement. If the text link is the full sentence, then the text link target touch area does need to meet the 44 by 44 CSS pixels."
                                 },
                                 {
-                                    "content": "<strong>Example 6: Footnote</strong><br> A footnote link at the end of a sentence does not need to meet the 44 by 44 CSS pixels requirements. The footnote at the end of the sentence is considered to be part of the sentence."
+                                    "content": "A footnote link at the end of a sentence does not need to meet the 44 by 44 CSS pixels requirements. The footnote at the end of the sentence is considered to be part of the sentence."
                                 },
                                 {
-                                    "content": "<strong>Example 7: Help icon</strong><br> A help icon within or at the end of a sentence does not need to meet the 44 by 44 CSS pixels requirements. The icon at the end of the sentence is considered to be part of the sentence."
+                                    "content": "A help icon within or at the end of a sentence does not need to meet the 44 by 44 CSS pixels requirements. The icon at the end of the sentence is considered to be part of the sentence."
                                 }
                             ]
                         },
@@ -1596,7 +1596,7 @@
                                     "content": "Web content in Japanese provides kana (Japanese phonetic syllabary characters) written\n               next to Han characters (Kanji)  show the pronunciation of a person&apos;s name. The kana\n               is provided to users in parentheses right after the word. Giving the reading of the\n               words written in Han characters (Kanji) allows both sighted users and screen readers\n               to read/pronounce the words correctly. Note that screen readers will speak the word\n               twice: the Han characters (Kanji) that can be pronounced in a wrong way are read first\n               and then kana is spoken in order to provide the correct reading."
                                 },
                                 {
-                                    "content": "Web content using XHTML 1.1 provides kana (phonetic syllabary characters) written\n               above the characters to show the reading (pronunciation) of the words by using the\n               ruby element."
+                                    "content": "Web content using HTML provides kana (phonetic syllabary characters) written\n               above the characters to show the reading (pronunciation) of the words by using the\n               ruby element."
                                 },
                                 {
                                     "content": "A document includes some words whose meaning cannot be determined without knowing\n               the correct pronunciation. Each word is linked to a sound file that gives the correct\n               pronunciation. Users can select these links to find out how to pronounce the words."
@@ -1795,7 +1795,7 @@
                                     "content": "A field which requires the user to enter the two character abbreviation for a US state\n            has a link next to it which will popup an alphabetized list of state names and the\n            correct abbreviation.\n         "
                                 },
                                 {
-                                    "content": "A field for entering a date contains initial text which indicates the correct format\n            for the date.\n         "
+                                    "content": "A field for entering a date has text instructions to indicate the correct format\n            for the date.\n         "
                                 },
                                 {
                                     "content": "To enter their name, users are provided with two separate text fields. Rather than\n            having a single label &quot;Name&quot; (which would appear to leave the second text field unlabelled),\n            each field is given an explicit label - &quot;Given Name&quot; and &quot;Family Name&quot;.\n         "
