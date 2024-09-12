@@ -16,13 +16,10 @@ function formatScrapedData(params: IParameters): IFormattedData {
 
   traverse(formattedData).forEach(function (
     this: traverse.TraverseContext,
-    value: any,
+    value: any
   ) {
     //Replacing relative image URLs with their full versions (i.e. including the base name)
     if (typeof value === "string" && value.includes("<img")) {
-      //console.log(fullUrlOfPage.href);
-      //console.log(value);
-
       const contentWithUpdatedImgUrls: string = value.replace(
         /src=\".*?\"/g,
         function (origAttributeStr: string): string {
@@ -32,10 +29,27 @@ function formatScrapedData(params: IParameters): IFormattedData {
 
           const updatedAttributeStr = `src="${fullURL.href}"`;
           return updatedAttributeStr;
-        },
+        }
       );
 
       this.update(contentWithUpdatedImgUrls);
+    }
+
+    //Replacing relative anchor URLs with their full versions (i.e. including the base name)
+    if (typeof value === "string" && value.includes("<a")) {
+      const contentWithUpdatedAnchorUrls: string = value.replace(
+        /href=\".*?\"/g,
+        function (origAttributeStr: string): string {
+          const relativeUrl = origAttributeStr.split("=")[1].split('"')[1];
+
+          const fullURL = new URL(relativeUrl, fullUrlOfPage.href);
+
+          const updatedAttributeStr = `href="${fullURL.href}"`;
+          return updatedAttributeStr;
+        }
+      );
+
+      this.update(contentWithUpdatedAnchorUrls);
     }
   });
 
